@@ -26,6 +26,8 @@ TEST PLAN OUTLINE (IEEE 829 FORMAT)
 
 IEEE TEST PLAN TEMPLATE 
 
+Está bueno el template
+
 **1  TEST PLAN IDENTIFIER** 
 
 Some type of unique company generated number to identify this test plan, its level and the level of software that it is related to.  Preferably the test plan level will be the same as the related software level.  The number may also identify whether the test plan is a Master plan, a Level plan, an integration plan or whichever plan level it represents. This is to assist in coordinating software and testware versions within configuration management. 
