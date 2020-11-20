@@ -29,4 +29,3 @@ git add .
 git commit -m "El mensaje que quieras subir"
 git push
 ```
-Ya que tenemos el commit, hay que hacer el pull request desde github.com
