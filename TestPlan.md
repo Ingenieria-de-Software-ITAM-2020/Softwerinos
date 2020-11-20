@@ -11,7 +11,6 @@
 3. El alumno no podrá modificar su horario fuera de su horario de modificación 
 4. El alumno no podrá inscribirse a materias que no tengan cupo
 5. No se pueden inscribir materias que tengan horarios empalmados.
-
 ## 7. FEATURES NOT TO BE TESTED
 ## 8. APPROACH (STRATEGY)
 ## 9. ITEM PASS/FAIL CRITERIA
