@@ -1,4 +1,4 @@
-﻿**IEEE Test Plan Outline ![](Plan%20de%20Calidad.001.png)**
+# IEEE Test Plan Outline 
 
 Foundation Course in Software Testing 
 
