@@ -28,7 +28,7 @@ IEEE TEST PLAN TEMPLATE
 
 Está bueno el template
 
-**1  TEST PLAN IDENTIFIER** 
+## 1  TEST PLAN IDENTIFIER 
 
 Some type of unique company generated number to identify this test plan, its level and the level of software that it is related to.  Preferably the test plan level will be the same as the related software level.  The number may also identify whether the test plan is a Master plan, a Level plan, an integration plan or whichever plan level it represents. This is to assist in coordinating software and testware versions within configuration management. 
 
@@ -36,7 +36,7 @@ Keep in mind that test plans are like other software documentation, they are dyn
 
 You may want to include author and contact information including the revision history information as part of either the identifier section of as part of the introduction. 
 
-**2  REFERENCES** 
+## 2  REFERENCES
 
 List all documents that support this test plan.  Refer to the actual version/release number of the document as stored in the configuration management system. Do not duplicate the text from other documents as this will reduce the viability of this document and increase the maintenance effort. Documents that can be referenced include: 
 
@@ -50,7 +50,7 @@ Detail design document
 
 Development and Test process standards Methodology guidelines and examples Corporate standards and guidelines 
 
-**3  INTRODUCTION** 
+## 3  INTRODUCTION
 
 State the purpose of the Plan, possibly identifying the level of the plan (master etc.). This is essentially the executive summary part of the plan. 
 
@@ -60,7 +60,7 @@ Identify the Scope of the plan in relation to the Software Project plan that it 
 
 As this is the “Executive Summary” keep information brief and to the point. 
 
-**4  TEST ITEMS (FUNCTIONS)** 
+## 4  TEST ITEMS (FUNCTIONS)
 
 These are things you intend to test within the scope of this test plan.  Essentially, something you will test, a list of what is to be tested. This can be developed from the software application inventories as well as other sources of documentation and information. ![](Plan%20de%20Calidad.002.png)
 
@@ -70,7 +70,7 @@ Remember, what you are testing is what you intend to deliver to the Client.
 
 This section can be oriented to the level of the test plan.  For higher levels it may be by application or functional area, for lower levels it may be by program, unit, module or build. 
 
-**5  SOFTWARE RISK ISSUES** 
+## 5  SOFTWARE RISK ISSUES
 
 Identify what software is to be tested and what the critical areas are, such as: 
 
@@ -96,7 +96,7 @@ One good approach to define where the risks are is to have several brainstorming
 
 Start with ideas, such as, what worries me about this project/application. 
 
-**6  FEATURES TO BE TESTED** 
+## 6  FEATURES TO BE TESTED 
 
 This is a listing of what is to be tested from the **USERS** viewpoint of what the system does.  This is not a technical description of the software, but a USERS view of the functions. 
 
@@ -104,7 +104,7 @@ Set the level of risk for each feature.  Use a simple rating scale such as (H, M
 
 It should be noted that Section 4 and Section 6 are very similar. The only true difference is the point of view.  Section 4 is a technical type description including version numbers and other technical information and Section 6 is from the User’s viewpoint.  Users do not understand ![](Plan%20de%20Calidad.002.png) technical software terminology; they understand functions and processes as they relate to their jobs.
 
-**7  FEATURES NOT TO BE TESTED** 
+## 7  FEATURES NOT TO BE TESTED
 
 This is a listing of what is NOT to be tested from both the Users viewpoint of what the system does and a configuration management/version control view.  This is not a technical description of the software, but a USERS view of the functions. 
 
@@ -118,7 +118,7 @@ Will be released but not tested or documented as a functional part of the releas
 
 Sections 6 and 7 are directly related to Sections 5 and 17.  What will and will not be tested are directly affected by the **levels of acceptable risk** within the project, and what does not get tested affects the **level of risk** of the project.  
 
-**8  APPROACH (STRATEGY)** 
+## 8  APPROACH (STRATEGY)
 
 This is your overall test strategy for this test plan; it should be appropriate to the level of the plan (master, acceptance, etc.) and should be in agreement with all higher and lower levels of plans.  Overall rules and processes should be identified. 
 
@@ -158,7 +158,7 @@ SRE, Software Reliability Engineering - if this methodology is in use and if the
 
 How will meetings and other organizational processes be handled? 
 
-**9  ITEM PASS/FAIL CRITERIA** 
+## 9  ITEM PASS/FAIL CRITERIA 
 
 What are the Completion criteria for this plan?  This is a critical aspect of any test plan and should be appropriate to the level of the plan. 
 
@@ -186,7 +186,7 @@ A defect is something that **may** cause a failure, and may be acceptable to lea
 
 A failure is the result of a defect as seen by the User, the system crashes, etc. 
 
-**10  SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS** 
+## 10  SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
 
 Know when to pause in a series of tests. 
 
@@ -196,7 +196,7 @@ Specify what constitutes stoppage for a test or series of tests and what is the 
 
 Testing after a truly fatal error will generate conditions that may be identified as defects but are in fact ghost errors caused by the earlier defects that were ignored. 
 
-**11  TEST DELIVERABLES** 
+## 11  TEST DELIVERABLES 
 
 What is to be delivered as part of this plan? 
 
@@ -216,7 +216,7 @@ Error logs and execution logs. Problem reports and corrective actions.
 
 One thing that is not a test deliverable is the software itself that is listed under test items and is delivered by development. ![](Plan%20de%20Calidad.002.png)
 
-**12  REMAINING TEST TASKS** 
+## 12  REMAINING TEST TASKS 
 
 If this is a multi-phase process or if the application is to be released in increments there may be parts of the application that this plan does not address.  These areas need to be identified to avoid any confusion should defects be reported back on those future functions.  This will also allow the users and testers to avoid incomplete functions and prevent waste of resources chasing non-defects. 
 
@@ -224,7 +224,7 @@ If the project is being developed as a multi-party process, this plan may only c
 
 When a third party is developing the software, this section may contain descriptions of those test tasks belonging to both the internal groups and the external groups. 
 
-**13  ENVIRONMENTAL NEEDS** 
+## 13  ENVIRONMENTAL NEEDS
 
 Are there any special requirements for this test plan, such as: 
 
@@ -238,7 +238,7 @@ Specific versions of other supporting software.
 
 Restricted use of the system during testing. 
 
-**14  STAFFING AND TRAINING NEEDS** 
+## 14  STAFFING AND TRAINING NEEDS
 
 Training on the application/system. 
 
@@ -246,7 +246,7 @@ Training for any test tools to be used.
 
 Section 4 and Section 15 also affect this section.  What is to be tested and who is responsible for the testing and training. 
 
-**15  RESPONSIBILITIES** 
+## 15  RESPONSIBILITIES 
 
 Who is in charge? 
 
@@ -264,7 +264,7 @@ Who provides the required training?
 
 Who makes the critical go/no go decisions for items not covered in the test plans?![](Plan%20de%20Calidad.002.png)
 
-**16  SCHEDULE** 
+## 16  SCHEDULE
 
 Should be based on realistic and validated estimates.  If the estimates for the development of the application are inaccurate, the entire project plan will slip and the testing is part of the overall project plan. 
 
@@ -280,7 +280,7 @@ At this point, all relevant milestones should be identified with their relations
 
 It is always best to tie all test dates directly to their related development activity dates.  This prevents the test team from being perceived as the cause of a delay.  For example, if system testing is to begin after delivery of the final build, then system testing begins the day after delivery.  If the delivery is late, system testing starts from the day of delivery, not on a specific date.  This is called dependent or relative dating. 
 
-**17  PLANNING RISKS AND CONTINGENCIES** 
+## 17  PLANNING RISKS AND CONTINGENCIES
 
 What are the overall risks to the project with an emphasis on the testing process? 
 
@@ -318,7 +318,7 @@ Management is usually reluctant to accept scenarios such as the one above even t
 
 The important thing to remember is that, if you do nothing at all, the usual result is that testing is cut back or omitted completely, neither of which should be an acceptable option. 
 
-**18  APPROVALS** 
+## 18  APPROVALS 
 
 Who can approve the process as complete and allow the project to proceed to the next level (depending on the level of the plan)? 
 
@@ -336,7 +336,7 @@ Users may have varying levels of business acumen and very little technical skill
 
 claim to fully understand the business process.  These types of individuals can cause more harm than good if they do not have the skills they believe they possess. 
 
-**19  GLOSSARY** 
+## 19  GLOSSARY
 
 Used to define terms and acronyms used in the document, and testing in general, to eliminate confusion and promote consistent communications. ![](Plan%20de%20Calidad.002.png)
 
