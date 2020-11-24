@@ -6,4 +6,3 @@ Equipo conformado por:
 - Isaías Jesús García Moreno
 
 
-#prueba commit
