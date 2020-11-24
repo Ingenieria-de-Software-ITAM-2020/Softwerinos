@@ -6,6 +6,7 @@
 
 
 ## Tabla de Contenidos
+<<<<<<< HEAD
 1. Introducción  
  - Propósito    
  - Convenciones del Documento    
@@ -32,6 +33,34 @@
  - Requerimientos de seguridad   
  - Atributos de Software de Calidad    
  - Reglas del negocio    
+=======
+- HOLLLA   
+- Propósito    
+- Convenciones del Documento    
+- Audiencia, Objetivo y Sugerencias de Lectura    
+- Alcance del producto    
+- Descripción General    
+- Perspectiva del producto    
+- Funciones del Producto    
+- Clases y Características del usuario.    
+- Ambiente de operación    
+- Documentación    
+- Requerimientos de Interfaces Externas    
+- Interfaces de usuario    
+- Interfaces del hardware    
+- Interfaces de software    
+- Interfaces de comunicación    
+- Funcionalidades del sistema    
+- Funcionalidad 1
+- Funcionalidad 2  
+- Funcionalidad 3   
+- Otros Requerimientos No Funcionales    
+- Requerimientos operacionales   
+- Requerimientos de protección  
+- Requerimientos de seguridad   
+- Atributos de Software de Calidad    
+- Reglas del negocio    
+>>>>>>> b5fbadaa4c361d514cc0c5c344973bf0cf8551ab
 
 
 ## 1. Introducción
