@@ -36,48 +36,48 @@
 
 ## 1. Introducción
 ### 1.1. Propósito
-## 1.2. Convenciones del Documento 
-## 1.3. Audiencia, Objetivo y Sugerencias de Lectura
-## 1.4. Alcance del producto
+### 1.2. Convenciones del Documento 
+### 1.3. Audiencia, Objetivo y Sugerencias de Lectura
+### 1.4. Alcance del producto
 ## 2. Descripción General
-## 2.1. Perspectiva del producto
-## 2.2. Funciones del Producto
-## 2.3. Clases y Características del usuario.
-## 2.4. Ambiente de operación
-## 2.5. Documentación
-## 2.6. Dependencias y asunciones
+### 2.1. Perspectiva del producto
+### 2.2. Funciones del Producto
+### 2.3. Clases y Características del usuario.
+### 2.4. Ambiente de operación
+### 2.5. Documentación
+### 2.6. Dependencias y asunciones
 ## 3. Requerimientos de Interfaces Externas
-## 3.1. Interfaces de usuario
-## 3.2. Interfaces del hardware
-## 3.3. Interfaces de software    
-## 3.4. Interfaces de comunicación
+### 3.1. Interfaces de usuario
+### 3.2. Interfaces del hardware
+### 3.3. Interfaces de software    
+### 3.4. Interfaces de comunicación
 ## 4. Funcionalidades del sistema
-## 4.1. Funcionalidad 1
-## 4.1.1. Descripción y prioridad 
-## 4.1.2. Secuencias Estímulo/Respuesta
-## 4.1.3. Requerimientos funcionales
+### 4.1. Funcionalidad 1
+#### 4.1.1. Descripción y prioridad 
+#### 4.1.2. Secuencias Estímulo/Respuesta
+#### 4.1.3. Requerimientos funcionales
 - REQ-1.1: 
 - REQ-1.2: 
 - REQ-1.3: 
 ## 4.2. Funcionalidad 2
-## 4.2.1. Descripción y prioridad 
-## 4.2.2. Secuencias Estímulo/Respuesta
-## 4.2.3. Requerimientos funcionales
+#### 4.2.1. Descripción y prioridad 
+#### 4.2.2. Secuencias Estímulo/Respuesta
+#### 4.2.3. Requerimientos funcionales
 - REQ-2.1: 
 - REQ-2.2: 
 - REQ-2.3: 
 ## 4.3. Funcionalidad 3
-## 4.3.1. Descripción y prioridad 
-## 4.3.2. Secuencias Estímulo/Respuesta
-## 4.3.3. Requerimientos funcionales
+#### 4.3.1. Descripción y prioridad 
+#### 4.3.2. Secuencias Estímulo/Respuesta
+#### 4.3.3. Requerimientos funcionales
 - REQ-3.1: 
 - REQ-3.2: 
 - REQ-3.3: 
 ## 5. Otros Requerimientos No Funcionales
-## 5.1. Requerimientos operacionales
-## 5.2. Requerimientos de protección
-## 5.3. Requerimientos de seguridad
-## 5.4. Atributos de Software de Calidad
+### 5.1. Requerimientos operacionales
+### 5.2. Requerimientos de protección
+### 5.3. Requerimientos de seguridad
+### 5.4. Atributos de Software de Calidad
 
 - Exactitud 
 - Fiabilidad 
