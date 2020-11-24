@@ -6,8 +6,9 @@
 
 
 ## Tabla de Contenidos
-1. Introducción    
+1. Introducción  
  - Propósito    
+ El propósito de de este proyecto es ...
  - Convenciones del Documento    
  - Audiencia, Objetivo y Sugerencias de Lectura    
  - Alcance del producto    
@@ -26,7 +27,7 @@
  - Funcionalidad 1
  - Funcionalidad 2  
  - Funcionalidad 3   
-5. Hola    
+5. Otros Requerimientos No Funcionales    
  - Requerimientos operacionales   
  - Requerimientos de protección  
  - Requerimientos de seguridad   
