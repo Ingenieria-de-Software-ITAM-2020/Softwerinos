@@ -1,8 +1,8 @@
-# Especificación de Requerimientos del Sistema para Sistema de inscripciones ITAM
+# Especificación de Requerimientos del Sistema de comunicación ITAM
 # Versión 1.0 aprobada
 # Preparado por Andrea de Anda Kuri, Miguel Ángel Cifuentes Jiménez, Damian Pérez Landeros, Isaías Jesús García Moreno
 # Instituto Tecnológico Autónomo de México
-# 30/09/2020
+# 24/11/2020
 
 
 ## Tabla de Contenidos
@@ -34,11 +34,9 @@
 - Reglas del negocio    
 
 
-1. Introducción
-## 1.1. Propósito
-
+## 1. Introducción
+### 1.1. Propósito
 ## 1.2. Convenciones del Documento 
-
 ## 1.3. Audiencia, Objetivo y Sugerencias de Lectura
 ## 1.4. Alcance del producto
 ## 2. Descripción General
@@ -58,23 +56,23 @@
 ## 4.1.1. Descripción y prioridad 
 ## 4.1.2. Secuencias Estímulo/Respuesta
 ## 4.1.3. Requerimientos funcionales
-REQ-1.1: 
-REQ-1.2: 
-REQ-1.3: 
+- REQ-1.1: 
+- REQ-1.2: 
+- REQ-1.3: 
 ## 4.2. Funcionalidad 2
 ## 4.2.1. Descripción y prioridad 
 ## 4.2.2. Secuencias Estímulo/Respuesta
 ## 4.2.3. Requerimientos funcionales
-REQ-2.1: 
-REQ-2.2: 
-REQ-2.3: 
+- REQ-2.1: 
+- REQ-2.2: 
+- REQ-2.3: 
 ## 4.3. Funcionalidad 3
 ## 4.3.1. Descripción y prioridad 
 ## 4.3.2. Secuencias Estímulo/Respuesta
 ## 4.3.3. Requerimientos funcionales
-REQ-3.1: 
-REQ-3.2: 
-REQ-3.3: 
+- REQ-3.1: 
+- REQ-3.2: 
+- REQ-3.3: 
 ## 5. Otros Requerimientos No Funcionales
 ## 5.1. Requerimientos operacionales
 ## 5.2. Requerimientos de protección
