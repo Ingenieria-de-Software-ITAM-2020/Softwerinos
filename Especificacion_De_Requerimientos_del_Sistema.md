@@ -35,27 +35,37 @@
 
 ## 1. Introducción
 ### 1.1. Propósito
-El proposito de este documento consiste en presentar los requerimientos de un sistema que permita a los alumnos, profesores y personal administrativo del ITAM comunicarse entre si. 
-Este es un experimento.
+El proposito de este documento consiste en presentar los requerimientos de un sistema que permita a los alumnos, profesores y personal administrativo del ITAM comunicarse entre si. Este documento describe la version 0 del Sistema que corresponde al prototipo interactivo.
 ### 1.2. Convenciones del Documento 
 Convención | Término 
 -- | --
 ITAM | Instituto Tecnológico Autónomo de México
+TI | Tecnologías de Información 
 ### 1.3. Audiencia, Objetivo y Sugerencias de Lectura
-Este documento está dirigido al departamento de TI del ITAM y al equipo de desarrollo del proyecto, con el objetivo de explicar las funcionalidades del sistema y sus características.
+Este documento está dirigido al departamento de TI del ITAM y al equipo de desarrollo del proyecto, con el objetivo de explicar las funcionalidades del sistema y sus características. Este documento contiene la información necesaria para comprender el funcionamiento, objetivo, realización y el uso del producto.
 Se recomienda que la lectura de este documento sea de forma secuencial, acorde a la tabla de contenido. 
 ### 1.4. Alcance del producto
 Proponemos un sistema para que los alumnos, profesores y personal administrativo del ITAM puedan comunicarse entre si. Se espera que este sistema facilite la comunicación de la comunidad ITAM dentro de un solo espacio ya que anteriormente, el contacto se realizaba por sistemas externos. 
 Objetivos:
  - Que la comunidad ITAM (alumnos, profesores y personal administrativo) pueda comunicarse entre si, dentro de un sistema único.
-  
+ - Que la comunicación se establezca de manera efectiva y segura; definimos como efectiva la brevedad de las respuestas de las distintas partes, que tendrán un tiempo esperado de dos días.  
+ - Que este sistema fomente la cohesión de la comunidad, a través de la apertura de canales de comunicación.  
 ## 2. Descripción General
 ### 2.1. Perspectiva del producto
-
-Este sistema busca engoblar dentro de un ambiente único, la comunicación entre alumnos, profesores y personal administrativo del ITAM. Actualmente el contacto se realiza con sistemas externos y esto ocaciona confusión y afecta la comunicación entre las tres partes.
-
+Este sistema busca engoblar dentro de un ambiente único la comunicación entre alumnos, profesores y personal administrativo del ITAM. Actualmente el contacto se realiza con sistemas externos y esto ocaciona confusión, lo cual afecta la comunicación entre las tres partes. Este producto surge como una solución para integrar la comunicación de la comunidad estudiantil del ITAM, de manera centralizada.   
 ### 2.2. Funciones del Producto
+- Establecer un canal de comunicación confiable entre alumnos, profesores y personal administrativo del ITAM. 
+- Asegurar que el alumno obtenga una respuesta en tiempo promedio de 36 horas. 
+- Respaldar las conversaciones pasadas para resolver conlfictos puedan surgir.
+- Que los usuarios puedan valorar la comuncación y la información que obtuvieron de ella, para mejorar la experiencia futura. 
+- Reportar conducta inapropiada de todas las partes.
 ### 2.3. Clases y Características del usuario.
+Usuarios | Descripción 
+-- | --
+Estudiante | Persona inscrita en el ITAM que puede enviar mensajes a los demas usuarios, evaluar las respuestas recibidas, reportar, crear chats privados o grupales
+Docente | 
+Personal administrativo | 
+TI(administradores del sistema) |
 ### 2.4. Ambiente de operación
 ### 2.5. Documentación
 ### 2.6. Dependencias y asunciones
