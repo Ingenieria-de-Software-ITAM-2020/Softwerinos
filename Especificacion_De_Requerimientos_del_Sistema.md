@@ -8,7 +8,6 @@
 ## Tabla de Contenidos
 1. Introducción  
  - Propósito    
- El propósito de de este proyecto es ...
  - Convenciones del Documento    
  - Audiencia, Objetivo y Sugerencias de Lectura    
  - Alcance del producto    
