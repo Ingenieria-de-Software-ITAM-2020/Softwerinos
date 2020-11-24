@@ -1,41 +1,40 @@
-# Especificación de Requerimientos del Sistema para <Sistema de inscripciones ITAM>
+# Especificación de Requerimientos del Sistema para Sistema de inscripciones ITAM
 # Versión 1.0 aprobada
-# Preparado por <Andrea de Anda Kuri, Miguel Ángel Cifuentes Jiménez, Damian Pérez Landeros, Isaías Jesús García Moreno>
-# <Instituto Tecnológico Autónomo de México>
-# <30/09/2020>
+# Preparado por Andrea de Anda Kuri, Miguel Ángel Cifuentes Jiménez, Damian Pérez Landeros, Isaías Jesús García Moreno
+# Instituto Tecnológico Autónomo de México
+# 30/09/2020
 
 
 ## Tabla de Contenidos
-## Introducción    4
-## Propósito    4
-## Convenciones del Documento    4
-## Audiencia, Objetivo y Sugerencias de Lectura    4
-## Alcance del producto    4
-## Descripción General    5
-## Perspectiva del producto    5
-## Funciones del Producto    5
-## Clases y Características del usuario.    5
-## Ambiente de operación    5
-## Documentación    6
-## Dependencias y asunciones    6
-## Requerimientos de Interfaces Externas    6
-## Interfaces de usuario    6
-## Interfaces del hardware    8
-## Interfaces de software    8
-## Interfaces de comunicación    8
-## Funcionalidades del sistema    9
-## Agregar/actualizar grupos    9
-## Inscribir horario    9
-## Modificación de horarios    10
-## Otros Requerimientos No Funcionales    11
-## Requerimientos operacionales    11
-## Requerimientos de protección    11
-## Requerimientos de seguridad    11
-## Atributos de Software de Calidad    12
-## Reglas del negocio    14
+- Introducción    
+- Propósito    
+- Convenciones del Documento    
+- Audiencia, Objetivo y Sugerencias de Lectura    
+- Alcance del producto    
+- Descripción General    
+- Perspectiva del producto    
+- Funciones del Producto    
+- Clases y Características del usuario.    
+- Ambiente de operación    
+- Documentación    
+- Requerimientos de Interfaces Externas    
+- Interfaces de usuario    
+- Interfaces del hardware    
+- Interfaces de software    
+- Interfaces de comunicación    
+- Funcionalidades del sistema    
+- Funcionalidad 1
+- Funcionalidad 2  
+- Funcionalidad 3   
+- Otros Requerimientos No Funcionales    
+- Requerimientos operacionales   
+- Requerimientos de protección  
+- Requerimientos de seguridad   
+- Atributos de Software de Calidad    
+- Reglas del negocio    
 
 
-## 1. Introducción
+1. Introducción
 ## 1.1. Propósito
 
 ## 1.2. Convenciones del Documento 
@@ -82,17 +81,17 @@ REQ-3.3:
 ## 5.3. Requerimientos de seguridad
 ## 5.4. Atributos de Software de Calidad
 
--Exactitud 
--Fiabilidad 
--Adecuación 
--Capacidad de Aprendizaje
--Robustez 
--Mantenibilidad
--Legibilidad
--Extensibilidad
--Facilidad de Prueba
--Eficiencia 
--Portabilidad
+- Exactitud 
+- Fiabilidad 
+- Adecuación 
+- Capacidad de Aprendizaje
+- Robustez 
+- Mantenibilidad
+- Legibilidad
+- Extensibilidad
+- Facilidad de Prueba
+- Eficiencia 
+- Portabilidad
 
 ## 5.5. Reglas del negocio
 
