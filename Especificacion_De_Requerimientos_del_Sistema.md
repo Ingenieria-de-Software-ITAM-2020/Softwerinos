@@ -36,9 +36,19 @@
 
 ## 1. Introducción
 ### 1.1. Propósito
+El proposito de este documento consiste en presentar los requerimientos de un sistema que permita a los alumnos, profesores y personal administrativo del ITAM comunicarse entre si. 
 ### 1.2. Convenciones del Documento 
+Convención | Término 
+-- | --
+ITAM | Instituto Tecnológico Autónomo de México
 ### 1.3. Audiencia, Objetivo y Sugerencias de Lectura
+Este documento está dirigido al departamento de TI del ITAM y al equipo de desarrollo del proyecto, con el objetivo de explicar las funcionalidades del sistema y sus características.
+Se recomienda que la lectura de este documento sea de forma secuencial, acorde a la tabla de contenido. 
 ### 1.4. Alcance del producto
+Proponemos un sistema para que los alumnos, profesores y personal administrativo del ITAM puedan comunicarse entre si. Se espera que este sistema facilite la comunicación de la comunidad ITAM dentro de un solo espacio ya que anteriormente, el contacto se realizaba por sistemas externos. 
+Objetivos:
+ - Que la comunidad ITAM (alumnos, profesores y personal administrativo) pueda comunicarse entre si, dentro de un sistema único.
+  
 ## 2. Descripción General
 ### 2.1. Perspectiva del producto
 ### 2.2. Funciones del Producto
