@@ -7,31 +7,31 @@
 
 ## Tabla de Contenidos
 1. Introducción    
-- Propósito    
-- Convenciones del Documento    
-- Audiencia, Objetivo y Sugerencias de Lectura    
-- Alcance del producto    
+ - Propósito    
+ - Convenciones del Documento    
+ - Audiencia, Objetivo y Sugerencias de Lectura    
+ - Alcance del producto    
 2. Descripción General    
-- Perspectiva del producto    
-- Funciones del Producto    
-- Clases y Características del usuario.    
-- Ambiente de operación    
-- Documentación    
+ - Perspectiva del producto    
+ - Funciones del Producto    
+ - Clases y Características del usuario.    
+ - Ambiente de operación    
+ - Documentación    
 3. Requerimientos de Interfaces Externas    
-- Interfaces de usuario    
-- Interfaces del hardware    
-- Interfaces de software    
-- Interfaces de comunicación    
+ - Interfaces de usuario    
+ - Interfaces del hardware    
+ - Interfaces de software    
+ - Interfaces de comunicación    
 4. Funcionalidades del sistema    
-- Funcionalidad 1
-- Funcionalidad 2  
-- Funcionalidad 3   
+ - Funcionalidad 1
+ - Funcionalidad 2  
+ - Funcionalidad 3   
 5. Otros Requerimientos No Funcionales    
-- Requerimientos operacionales   
-- Requerimientos de protección  
-- Requerimientos de seguridad   
-- Atributos de Software de Calidad    
-- Reglas del negocio    
+ - Requerimientos operacionales   
+ - Requerimientos de protección  
+ - Requerimientos de seguridad   
+ - Atributos de Software de Calidad    
+ - Reglas del negocio    
 
 
 ## 1. Introducción
