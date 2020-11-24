@@ -51,6 +51,9 @@ Objetivos:
   
 ## 2. Descripción General
 ### 2.1. Perspectiva del producto
+
+Este sistema busca engoblar dentro de un ambiente único, la comunicación entre alumnos, profesores y personal administrativo del ITAM. Actualmente el contacto se realiza con sistemas externos y esto ocaciona confusión y afecta la comunicación entre las tres partes.
+
 ### 2.2. Funciones del Producto
 ### 2.3. Clases y Características del usuario.
 ### 2.4. Ambiente de operación
