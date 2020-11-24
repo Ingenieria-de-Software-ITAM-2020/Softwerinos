@@ -25,7 +25,7 @@ code .
 
 Para hacer un commit:
 ```
-git add .
+git add <nombre archivo>
 git commit -m "El mensaje que quieras subir"
-git push
+git push origin main
 ```
