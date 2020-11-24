@@ -37,6 +37,7 @@
 ## 1. Introducción
 ### 1.1. Propósito
 El proposito de este documento consiste en presentar los requerimientos de un sistema que permita a los alumnos, profesores y personal administrativo del ITAM comunicarse entre si. 
+Este es un experimento.
 ### 1.2. Convenciones del Documento 
 Convención | Término 
 -- | --
