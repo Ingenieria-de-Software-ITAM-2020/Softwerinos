@@ -153,6 +153,7 @@ Estos usuarios se estima que se envíen en promedio 60 mensajes al día, por lo 
 A través de una simulación de tiempos exponenciales con un promedio de 4.03 transacciones por segundo nos dio en promedio que se habrá un tiempo entre transacciones de 0.249 ms.
 ### 5.2. Requerimientos de protección
 ### 5.3. Requerimientos de seguridad
+Al ser un software de uso institucional es muy importante declarar a los usuarios en un aviso de privacidad que todos los datos generados dentro de la aplicación, son propiedad del ITAM y se adecuará a la política de uso de datos de la institución. Las autenticaciones se harán con el correo institucional, y los únicos datos que se obtendrán del perfil institucional serán el nombre, la clave única y las grupos de las materias a las que está inscrito en caso de ser alumno, y las materias que imparte y a qué grupos en caso de ser profesor. También opcionalmente se podrá generar en el perfil un resumen personal con datos curriculares y áreas de interés.
 ### 5.4. Atributos de Software de Calidad
 
 - Exactitud 
