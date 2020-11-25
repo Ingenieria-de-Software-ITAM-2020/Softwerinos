@@ -84,8 +84,11 @@ Para el correcto funcionamiento asumimos que:
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
+El hardware del sistema es el siguiente:
 ![Interfaz de Hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/interfaz_hardware.PNG)
+En el diagrama podemos observar que los usuarios se conectan por medio de un pc o un disposito movil, donde ingresan a la aplicación. Más tarde los datos pasan a través de un firewall
 ### 3.3. Interfaces de software    
+
 ### 3.4. Interfaces de comunicación
 ## 4. Funcionalidades del sistema
 ### 4.1. Enviar mensaje y recibir mensajes en un canal de comunicación
