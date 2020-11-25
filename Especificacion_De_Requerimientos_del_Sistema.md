@@ -103,40 +103,46 @@ Los usuarios entran a la aplicación, donde tendrán todos sus chats abiertos y 
 - REQ-1.5: Que el número de mensajes recibidos esté limitado sólo por la memoria del dispositivo.
 ## 4.2. Crear chats
 #### 4.2.1. Descripción y prioridad 
-Poder crear un chat con algún miembro de la organización a quien se desee enviar un mensaje personal, tendrá prioridad alta con valor 1 ya que es parte de las funcionalidades básicas de la aplicación.
+Poder crear un chat con algún miembro de la organización a quien se desee enviar un mensaje personal, tendrá prioridad alta con valor 1 ya que es parte de las funcionalidades básicas de la aplicación.  
 #### 4.2.2. Secuencias Estímulo/Respuesta
-Habrá un botón de crear conversación donde puedas elegir a qué persona de la institución quieres mandar el mensaje, una vez seleccionados los destinatarios, se abrirá una nueva ventana de conversación con ese miembro del ITAM.
+Habrá un botón de crear conversación donde puedas elegir a qué persona o personas de la institución quieres mandar el mensaje, una vez seleccionados los destinatarios, se abrirá una nueva ventana de conversación con ese miembro del ITAM. Dentro del chat, el usuario podrá: enviar mensajes ilimitados a otro usuario u usuarios; visualizar los mensajes(imagenes, archivos, videos, texto) previos deslizandose hacia arriba dentro del chat y, visualizar los participantes con su foto y nombre correspondiente.
 #### 4.2.3. Requerimientos funcionales
-- REQ-2.1: Poder crear un grupo para mandar el mensaje seleccionando 2 o más usuarios como destinatarios.
+- REQ-2.1: Poder crear un grupo para mandar el mensaje seleccionando dos o más usuarios como destinatarios.
 - REQ-2.2: Si se decide crear una conversación con alguien con quien ya se tiene un chat, solo se abrirá el chat que ya existía. 
 - REQ-2.3: Poder tener el número de chats que la memoria del dispositivo permita. 
 - REQ-2.4: Poder crear un chat con los tres distintos usuarios (estudiante, docente, personal administtrativo).
+- REQ-2.5: Poder crear un chat con un usuario con el cual se tenía un chat pero se había borrado.
 ## 4.3. Reportar un mensaje 
 #### 4.3.1. Descripción y prioridad
 Poder reportar un mensaje que se considere que no cumple con el reglamento de convivencia establecido por el ITAM. Esta funcionalidad tiene prioridad 2 ya que, es una funcionalidad muy importante para conservar la buena convivencia dentro de la aplicación y evitar problemas sin embargo, no es una funcionalidad primordial para el funcionamiento básico del sistema.
 #### 4.3.2. Secuencias Estímulo/Respuesta
 Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará una ventana para confirmar que se desea reportar el mensaje. Además se debe seleccionar una o más opciones de una lista, la cual contiene las razones más comúnes que causan un reporte.   
 #### 4.3.3. Requerimientos funcionales
-- REQ-3.1: Poder reportar multiples mensajes dentro de un mismo chat
-- REQ-3.2: Al momento de reportar un mensaje, recibir un correo con la información del reporte para su futuro seguimiento.
+- REQ-3.1: Poder reportar multiples mensajes dentro de un mismo chat.
+- REQ-3.2: Poder seleccionar múltiples razones por la cual se realiza el reporte.
 - REQ-3.3: Que el sistema permita reportar indistintamente del tipo de usuario (estudiantes, docentes, personal administrativo).
-- REQ-3.4: 
+- REQ-3.4: Que el sistema permita escribir sobre una caja de texto otra razón por la cual se realizó el reporte, en el caso de que la lista de razones más comúnes no sea suficiente. 
+- REQ-3.5: Que el sistema permita cerrar la ventana de reporte, en el caso que no se requiera hacer el reporte y se haya seleccionado la opción por accidente. 
+- REQ-3.6: Que el sistema permita realizar un reporte sobre un mensaje de cualquier tipo. Es decir, que el sistema permita reportar videos, imagenes, archivos y mensajes de texto. 
 ## 4.4. Reenvio temporizado de mensajes de duda
 #### 4.4.1. Descripción y prioridad 
 Para evitar que una duda se quede sin respuesta, el usuario podrá recibir respuesta de los demás profesores que imparten la materia y de los estudiantes que la están cursando. Esta funcionalidad tiene prioridad alta 2, ya que es de suma importancia que las dudas de los alumnos se resuelvan en un tiempo promedio de 24 horas. 
 #### 4.4.2. Secuencias Estímulo/Respuesta
+El reenvio de los mensajes comenzara 12 horas después que el mensaje fue enviado, si dentro de este plazo el profesor al que se le envió la duda responde la pregunta, no será necesario reenviar el mensaje a los profesores de otros grupos. Más tarde si se cumple un plazo de 24 horas sin recibir respuesta, el mensaje será reenviado a los alumnos del grupo para ellos tambíen puedan responder a la pregunta.
 #### 4.4.3. Requerimientos funcionales
-- REQ-3.1: Reenviar un mensaje a los profesores después de 12 horas
-- REQ-3.2: Reenviar un mensaje a los alumnos de la materia después de 24 horas
-- REQ-3.3: Que el sistema solamente reenvie las dudas que no han sido contestadas, evitando mensajes de otra indole. 
-- REQ-3.4: Que el sistema reenvie el mensaje asignando con un nombre anonimo como autor del mensaje.
+- REQ-4.1: Reenviar un mensaje a los profesores después de 12 horas
+- REQ-4.2: Reenviar un mensaje a los alumnos de la materia después de 24 horas
+- REQ-4.3: Que el sistema solamente reenvie las dudas que no han sido contestadas, evitando mensajes de otra indole. 
+- REQ-4.4: Que el sistema reenvie el mensaje asignando un nombre anonimo como autor del mensaje. Este nombre anonimo tendrá como propositó evitar alguna molestia o inconveniente que el estudiante pueda tener, en caso de que su mensaje sea reenviado a otras personas que no sean el destinatario original.
+- REQ-4.5: En el caso que un mensaje cumpla alguno de los dos plazos (12 y 24 horas) el sistema debe reconocer si ya se tiene un chat abierto con los profesores o con los demás estudiantes. Con esto se evita tener grupos repetidos en el caso de que más de una duda no sea respondida por el profesor antes de las 12 horas establecidas.
+- REQ-4.5: Que el sistema reenvie el número de mensajes que se hayan mandado y no tengan respuesta. Es decir, si se mando un mensaje de texto con un archivo, el sistema reenviará el mensaje de texto con el archivo. 
 ## 4.5. Agendar citas
 #### 4.5.1. Descripción y prioridad 
 #### 4.5.2. Secuencias Estímulo/Respuesta
 #### 4.5.3. Requerimientos funcionales
-- REQ-3.1: 
-- REQ-3.2: 
-- REQ-3.3: 
+- REQ-5.1: 
+- REQ-5.2: 
+- REQ-5.3: 
 ## 5. Otros Requerimientos No Funcionales
 ### 5.1. Requerimientos operacionales
 Los requerimientos de rendimiento nos exigen a que se satisfaga la demanda por el producto bajo todos los escenarios de estrés que al que se exponga. Para esto tenemos que considerar el número de usuarios que usarán la aplicación. El ITAM tiene 5 mil alumnos,200 profesores y 100 usuarios administrativos contando a los de IT, por lo que el sistema debe tener capacidad de atender los requests de estos 5300 usuarios. Además se espera tener un pico de usuarios en los meses de agosto a octubre de aproximadamenre 500 alumnos más, y de enero a marzo de 100 alumnos. Por lo tanto tendremos que cubrir la capacidad para 5800 usuarios. 
