@@ -84,7 +84,7 @@ Para el correcto funcionamiento asumimos que:
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
-![Interfaz de Hardware](/Softwerinos/imagenes/interfaz_hardware.png)
+![Interfaz de Hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/interfaz_hardware.PNG)
 ### 3.3. Interfaces de software    
 ### 3.4. Interfaces de comunicación
 ## 4. Funcionalidades del sistema
