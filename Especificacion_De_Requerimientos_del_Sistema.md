@@ -149,15 +149,11 @@ En términos de disponiblididad de los datos, las conversaciones serán almacena
 
 - Fiabilidad :
     Se tendrá especial cuidado en medir los incidentes cuando sabemos que hay picos de usuarios, por ejemplo a principios y final de semestres que se espera tener sobrecargas de transacciones. Además definir en los logs cuáles incidentes son los más graves para establecer la prioridad de resolverlos de acuerdo con qué tan prioritarios son y qué tan frecuentes son, también en los logs será importante reportar dónde se están presentando los incidentes para evaluar si el módulo en general debe ser revisado. Todo esto con la finalidad de reducir drásticamente los errores en los primeros meses de productivo.
-- Adecuación 
-- Capacidad de Aprendizaje
-- Robustez 
-- Mantenibilidad
-- Legibilidad
-- Extensibilidad
-- Facilidad de Prueba
-- Eficiencia 
-- Portabilidad
+- Rendimiento:
+    Para obtenerel rendimiento necesario de nuestra plataforma se hará una fase de pruebas en el desarrollo, está descrita más a fondo en el Plan de Calidad, los requerimientos de rendimiento están especificados en la sección 5.1 de este documento. Se realizarán pruebas de carga, de estresamiento, pruebas de ataque y pruebas unitarias por módulo y su integración con la API.
+
+- Mantenibilidad:
+- Portabilidad:
 
 ## 5.5. Reglas del negocio
 
