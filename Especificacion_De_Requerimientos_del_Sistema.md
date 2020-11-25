@@ -148,13 +148,17 @@ Para cuidar la integridad de los datos se procesarán los mensajes con base en u
 En términos de disponiblididad de los datos, las conversaciones serán almacenadas durante un período de 6 meses antes de ser destruídas, a excepción de los mensajes que sean reportados como uso inapropiado que serán guardados mientras la aplicación se use, para tener un registro. Además de estos 6 meses de tiempo máximo de tolerancia se dará un mes de tiempo en una archivero temporal que se borrará cada més para tener un tiempo de rescate de un mes extra. Los permisos y autorizaciones se darán conforme se tenga registrado al usuario en el ITAM, ya sea como estudiante, administrativo, o empleado docente o de TI, cada uno de estos perfiles de usuarios tendrán distintos permisos, por ejemplo el administrador del sistema será el único que tendrá permiso de ver los mensajes reportados, y sancionar al perfil involucrado. Todas las estadísticas de uso serán recolectadas a través de logs, se contarán los mensajes enviados, los tiempos de respuesta a los mensajes, los tiempos de respuesta del servidor, estos podrán ser consultados en el sitio oficial del ITAM, donde también habrá reportes de los errores que se presenten y de las correcciones para prevenirlos.
 ### 5.4. Atributos de Software de Calidad
 
-- Fiabilidad :
+- Fiabilidad:
     Se tendrá especial cuidado en medir los incidentes cuando sabemos que hay picos de usuarios, por ejemplo a principios y final de semestres que se espera tener sobrecargas de transacciones. Además definir en los logs cuáles incidentes son los más graves para establecer la prioridad de resolverlos de acuerdo con qué tan prioritarios son y qué tan frecuentes son, también en los logs será importante reportar dónde se están presentando los incidentes para evaluar si el módulo en general debe ser revisado. Todo esto con la finalidad de reducir drásticamente los errores en los primeros meses de productivo.
+
 - Rendimiento:
-    Para obtenerel rendimiento necesario de nuestra plataforma se hará una fase de pruebas en el desarrollo, está descrita más a fondo en el Plan de Calidad, los requerimientos de rendimiento están especificados en la sección 5.1 de este documento. Se realizarán pruebas de carga, de estresamiento, pruebas de ataque y pruebas unitarias por módulo y su integración con la API.
+    Para obtener el rendimiento necesario de nuestra plataforma se hará una fase de pruebas en el desarrollo, está descrita más a fondo en el Plan de Calidad, los requerimientos de rendimiento están especificados en la sección 5.1 de este documento. Se realizarán pruebas de carga, de estresamiento, pruebas de ataque y pruebas unitarias por módulo y su integración con la API.
 
 - Mantenibilidad:
-- Portabilidad:
+    La métrica para la mantenibilidad que usaremos para este desarrollo es la de errores promedio por línea de código, ya que al hacerlo por microservicios, nos permitirá hacer estimaciones por módulo cuando se vaya a integrar otro servicio de manera informada y nos ayudará a mantener consciencia del costo en tiempo y dinero de este mantenimiento.
+    
+-Capacidad de entrega:
+    Se mantendrán abiertos los canales de comunicación con los usuarios y la institución para generar periódicamente más historias de usuario que se puedan convertir en nuevas funcionalidades que podrán ser integradas como nuevos microservicios.
 
 ## 5.5. Reglas del negocio
 
