@@ -110,7 +110,7 @@ Habrá un botón de crear conversación donde puedas elegir a qué persona de la
 - REQ-2.1: Poder crear un grupo para mandar el mensaje seleccionando 2 o más usuarios como destinatarios.
 - REQ-2.2: Si se decide crear una conversación con alguien con quien ya se tiene un chat, solo se abrirá el chat que ya existía. 
 - REQ-2.3: Poder tener el número de chats que la memoria del dispositivo permita. 
-- REQ-2.4: Poder crear un chat con los tres distintos usuarios( estudiante, docente, personal administtrativo).
+- REQ-2.4: Poder crear un chat con los tres distintos usuarios (estudiante, docente, personal administtrativo).
 ## 4.3. Reportar un mensaje 
 #### 4.3.1. Descripción y prioridad
 Poder reportar un mensaje que se considere que no cumple con el reglamento de convivencia establecido por el ITAM. Esta funcionalidad tiene prioridad 2 ya que, es una funcionalidad muy importante para conservar la buena convivencia dentro de la aplicación y evitar problemas sin embargo, no es una funcionalidad primordial para el funcionamiento básico del sistema.
@@ -119,7 +119,8 @@ Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará
 #### 4.3.3. Requerimientos funcionales
 - REQ-3.1: Poder reportar multiples mensajes dentro de un mismo chat
 - REQ-3.2: Al momento de reportar un mensaje, recibir un correo con la información del reporte para su futuro seguimiento.
-- REQ-3.3: 
+- REQ-3.3: Que el sistema permita reportar indistintamente del tipo de usuario (estudiantes, docentes, personal administrativo).
+- REQ-3.4: 
 ## 4.4. Reenvio temporizado de mensajes de duda
 #### 4.4.1. Descripción y prioridad 
 #### 4.4.2. Secuencias Estímulo/Respuesta
