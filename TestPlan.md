@@ -38,10 +38,11 @@ Aunque sabemos que se debería de tener diferentes persoans para realizar las di
 Los diferentes tipos de pruebas que se harán son: 
 1. Pruebas unitarias
 2. Pruebas bajo estrés
-3. Pruebas bajo ataque 
+3. Pruebas bajo ataque
+4. Pruebas de carga
 
 ## 9. CRITERIO PARA CONSIDERAR QUE UN ELEMENTO FUNCIONA
-Se considerará que el Software estará listo una vez que haya cumplido con un periodo de pruebas de 90 días sin tener fallas. 
+Se considerará que el Software estará listo una vez que haya cumplido con un periodo de pruebas de 90 días sin tener fallas. (ver sección 16 para el plan general)
 
 ## 10. SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
 Se deberá para en caso de que:
@@ -58,8 +59,14 @@ de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requi
 4. Reporte de incidentes
 
 ## 12. REMAINING TEST TASKS
-## 13. ENVIRONMENTAL NEEDS
+Se está considerando que las funcionalidades y requerimientos que tengan prioridad baja se lanzarán después del lanzamiento general. 
+Es decir, primero se terminará el software con las funcionalidades que han sido clasificadas con prioridad **alta** y **media** se realizarán primero y las funcionalidades de prioridad **baja** se dejarán pendientes. 
+
+## 13. ENVIRONMENTAL NEEDs
+!aquí van los requerimientos de hardware, lo está haciendo el chuy
+
 ## 14. STAFFING AND TRAINING NEEDS
+
 ## 15. RESPONSIBILITIES
 
 ## 16. PLAN DE TRABAJO
@@ -80,6 +87,7 @@ En cada sprint seguirá la estrategia general que incluye:
 1. Pruebas unitarias
 2. Pruebas bajo estrés
 3. Pruebas bajo ataque 
+4. Pruebas de carga
 
 
 Además se tiene el siguiente plan:
@@ -99,9 +107,9 @@ las fechas pueden variar entre la estimación y las fechas reales. Además, la p
 tendrán que modificar las fechas de entrega, el alcance o el costo. 
 
 ## 18. APROBACIÓN
-Lider del Proyecto - Andrea de Anda Kuri
-Test Manager - Miguel Ángel Cifuentes Jiménez
-Architecture manager - Damian Pérez Landeros
+Lider del Proyecto - Andrea de Anda Kuri        
+Test Manager - Miguel Ángel Cifuentes Jiménez         
+Architecture manager - Damian Pérez Landeros          
 Representante del equipo - Isaías Jesús García Moreno
 
 ## 19. GLOSARIO
