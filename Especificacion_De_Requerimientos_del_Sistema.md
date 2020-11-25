@@ -148,6 +148,9 @@ Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará
 - REQ-3.3: 
 ## 5. Otros Requerimientos No Funcionales
 ### 5.1. Requerimientos operacionales
+Los requerimientos de rendimiento nos exigen a que se satisfaga la demanda por el producto bajo todos los escenarios de estrés que al que se exponga. Para esto tenemos que considerar el número de usuarios que usarán la aplicación. El ITAM tiene 5 mil alumnos,200 profesores y 100 usuarios administrativos contando a los de IT, por lo que el sistema debe tener capacidad de atender los requests de estos 5300 usuarios. Además se espera tener un pico de usuarios en los meses de agosto a octubre de aproximadamenre 500 alumnos más, y de enero a marzo de 100 alumnos. Por lo tanto tendremos que cubrir la capacidad para 5800 usuarios. 
+Estos usuarios se estima que se envíen en promedio 60 mensajes al día, por lo que tendríamos en total una concurrencia diaria de 348'000 mensajes, por lo tanto un total de 4.03 mensajes por segundo. Estimamos también que el promedio de tamaño de archivo es de 10 kb, por lo que necesitaremos 40.3 kb/s de ancho de banda. 
+A través de una simulación de tiempos exponenciales con un promedio de 4.03 transacciones por segundo nos dio en promedio que se habrá un tiempo entre transacciones de 0.249 ms.
 ### 5.2. Requerimientos de protección
 ### 5.3. Requerimientos de seguridad
 ### 5.4. Atributos de Software de Calidad
