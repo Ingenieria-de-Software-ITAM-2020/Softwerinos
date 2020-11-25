@@ -68,6 +68,12 @@ Es decir, primero se terminará el software con las funcionalidades que han sido
 ## 14. STAFFING AND TRAINING NEEDS
 
 ## 15. RESPONSIBILITIES
+|   | TI | PM | Dev Team | Test  Team | Client |
+|---|----|----|----------|------------|--------|
+|   |    |    |          |            |        |
+|   |    |    |          |            |        |
+|   |    |    |          |            |        |
+|   |    |    |          |            |        |
 
 ## 16. PLAN DE TRABAJO
 Para las pruebas de calidad se utilizará una metodología Scrum con sprints de duración predefinida a una semana. 
