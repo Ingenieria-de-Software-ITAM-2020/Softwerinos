@@ -119,6 +119,14 @@ Architecture manager - Damian Pérez Landeros
 Representante del equipo - Isaías Jesús García Moreno
 
 ## 19. GLOSARIO
-
+| Palabra | Definición |
+|---------|------------|
+|         |            |
+|         |            |
+|         |            |
+|         |            |
+|         |            |
+|         |            |
+|         |            |
 
 
