@@ -67,7 +67,9 @@ Se considera que cada módulo se podrá realizar en un módulo de la siguiente f
 | 4  | Búsqueda  |
 | 5  |  Reportar ususarios |
 | 6  |  Reenvio de mensajes de dudas |
-| 7  |  Respaldo de mensajes |       
+| 7  |  Respaldo de mensajes | 
+
+
 En cada sprint seguirá la estrategia general que incluye:
 1. Pruebas unitarias
 2. Pruebas bajo estrés
@@ -81,6 +83,8 @@ Además se tiene el siguiente plan:
 | 8       | Lanzamiento a producción                      |
 | 9-12    | Lanzamiento preeliminar para detectar errores |
 | 13      | Lanzamiento general                           |
+
+
 Se está estimando que el lanzamiento general sucederá en caso de que se pasen todas las pruebas previstas. 
 
 ## 17. PLANNING RISKS AND CONTINGENCIES
