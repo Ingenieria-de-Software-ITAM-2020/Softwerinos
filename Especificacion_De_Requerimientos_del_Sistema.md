@@ -85,7 +85,7 @@ Para el correcto funcionamiento asumimos que:
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
 ![Interfaz de Hardware][ih]
-[ih]:
+[ih]: /Softwerinos/imagenes/interfaz_hardware.png
 ### 3.3. Interfaces de software    
 ### 3.4. Interfaces de comunicación
 ## 4. Funcionalidades del sistema
