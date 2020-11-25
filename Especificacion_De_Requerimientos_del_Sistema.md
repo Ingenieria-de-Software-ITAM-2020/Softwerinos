@@ -123,11 +123,13 @@ Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará
 - REQ-3.4: 
 ## 4.4. Reenvio temporizado de mensajes de duda
 #### 4.4.1. Descripción y prioridad 
+Para evitar que una duda se quede sin respuesta, el usuario podrá recibir respuesta de los demás profesores que imparten la materia y de los estudiantes que la están cursando. Esta funcionalidad tiene prioridad alta 2, ya que es de suma importancia que las dudas de los alumnos se resuelvan en un tiempo promedio de 24 horas. 
 #### 4.4.2. Secuencias Estímulo/Respuesta
 #### 4.4.3. Requerimientos funcionales
 - REQ-3.1: Reenviar un mensaje a los profesores después de 12 horas
 - REQ-3.2: Reenviar un mensaje a los alumnos de la materia después de 24 horas
-- REQ-3.3: 
+- REQ-3.3: Que el sistema solamente reenvie las dudas que no han sido contestadas, evitando mensajes de otra indole. 
+- REQ-3.4: Que el sistema reenvie el mensaje asignando con un nombre anonimo como autor del mensaje.
 ## 4.5. Agendar citas
 #### 4.5.1. Descripción y prioridad 
 #### 4.5.2. Secuencias Estímulo/Respuesta
