@@ -16,6 +16,7 @@ Aquí se encuentra una lista de los diferentes tipos de pruebas que se harán pa
 2. Interacción de mensajes
 3. Crear un nuevo chat/grupos
 4. Búsqueda
+5. Reportar ususarios
 
 
 ## 5. RIESGO DE PROBLEMAS CON EL SOFTWARE 
@@ -36,9 +37,17 @@ Los diferentes tipos de pruebas que se harán son:
 2. Pruebas bajo estrés
 3. Pruebas bajo ataque 
 
-## 9. ITEM PASS/FAIL CRITERIA
+## 9. CRITERIO PARA CONSIDERAR QUE UN ELEMENTO FUNCIONA
+Se considerará que el Software estará listo una vez que haya cumplido con un periodo de pruebas de 90 días sin tener fallas. 
 
 ## 10. SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
+Se deberá para en caso de que:
+1. Los mensajes no se estén enviando (por parte del usuario 1) y llegando (al usuario 2) en el orden correcto.
+2. Los mensajes no estén llegando
+3. Los mensajes estén llegando a un usuario incorrecto    
+Para atender los "issues" se está manejando una política de "min flow time," por lo que se optimizarán los recursos para trabajar con los "issues"
+de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requiera utilizarlos.
+
 ## 11. TEST DELIVERABLES
 ## 12. REMAINING TEST TASKS
 ## 13. ENVIRONMENTAL NEEDS
