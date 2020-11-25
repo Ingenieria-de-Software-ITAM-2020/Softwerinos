@@ -84,8 +84,7 @@ Para el correcto funcionamiento asumimos que:
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
-![Interfaz de Hardware][ih]
-[ih]: /Softwerinos/imagenes/interfaz_hardware.png
+![Interfaz de Hardware](/Softwerinos/imagenes/interfaz_hardware.png)
 ### 3.3. Interfaces de software    
 ### 3.4. Interfaces de comunicación
 ## 4. Funcionalidades del sistema
