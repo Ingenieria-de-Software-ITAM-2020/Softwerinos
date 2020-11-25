@@ -1,19 +1,37 @@
 # Test Plan (IEEE format)
 
 ## 1. TEST PLAN IDENTIFIER
-## 2. REFERENCES
-## 3. INTRODUCTION
-## 4. TEST ITEMS (FUNCTIONS)
-## 5. SOFTWARE RISK ISSUES
+
+## 2. REFERENCIAS
+Ninguna identificada
+
+## 3. INTRODUCCIÓN
+
+
+## 4. MÓDULOS A PROBAR
+Aquí se encuentra una lista de los diferentes tipos de pruebas que se harán para la **Versión 0**:
+
+
+## 5. RIESGO DE PROBLEMAS CON EL SOFTWARE 
+Se han identificado los siguientes riesgos:
+1. Seguridad
+2. Problemas con la interfaz
+
 ## 6. FEATURES TO BE TESTED
-1. El horario de inscripción de los alumnos debe de depender de su promedio
-2. No se pueden inscribir materias si el alumno no cumple con los prerrequisitos
-3. El alumno no podrá modificar su horario fuera de su horario de modificación 
-4. El alumno no podrá inscribirse a materias que no tengan cupo
-5. No se pueden inscribir materias que tengan horarios empalmados.
+
+
 ## 7. FEATURES NOT TO BE TESTED
-## 8. APPROACH (STRATEGY)
+
+
+## 8. ESTRATEGIA 
+Aunque sabemos que se debería de tener diferentes persoans para realizar las diferentes pruebas, por falta de personal, se harán las pruebas por diferentes miembros del equipo una vez que se termine cada módulo. 
+Los diferentes tipos de pruebas que se harán son: 
+1. Pruebas unitarias
+2. Pruebas bajo estrés
+3. Pruebas bajo ataque 
+
 ## 9. ITEM PASS/FAIL CRITERIA
+
 ## 10. SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
 ## 11. TEST DELIVERABLES
 ## 12. REMAINING TEST TASKS
