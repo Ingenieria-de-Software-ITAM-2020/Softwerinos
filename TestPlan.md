@@ -6,10 +6,16 @@
 Ninguna identificada
 
 ## 3. INTRODUCCIÓN
-
+A continuación se encuentra el plan de calidad del proyecto **BLATT ITAM**. 
+En este documento se encuetra un plan detallado que cuenta con todas las pruebas de calidad que se harán para asegurarse que el software es 
+un software seguro. 
 
 ## 4. MÓDULOS A PROBAR
 Aquí se encuentra una lista de los diferentes tipos de pruebas que se harán para la **Versión 0**:
+1. Login
+2. Interacción de mensajes
+3. Crear un nuevo chat/grupos
+4. Búsqueda
 
 
 ## 5. RIESGO DE PROBLEMAS CON EL SOFTWARE 
