@@ -84,11 +84,11 @@ Para el correcto funcionamiento asumimos que:
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
-
+La aplicación esta principalmente destinada a los dispositivos móviles sin embargo, es posible utilizarla en ordenadores. Es importante denotar que en ambos caso se debe tener una conexión a internet. 
 ### 3.3. Interfaces de software
-
+Este sistema utilizará una API para interactuar con AWS y el sistema de autenticación de usuario del ITAM. En el caso del primero, los datos serán tratados y almacenados por Amazon, y mediante una api los obtendremos. Mientras que con el sistema de autenticación del ITAM, obtenemos una forma más segura para que los usuarios ingresen
 ### 3.4. Interfaces de comunicación
-
+En primer lugar la comunicación entre los servidores y la web será por medio del protocolo HTTP. Con este protocolo, los datos transferidos son encriptados para lograr mayor seguridad. Más tarde, mediante el protocolo XMPP, realizaremos la transferencia de mensajes entre usuarios. Además los mensajes utilizaran el cifrado de extremo a extremo, para asegurarnos que la información de los usuarios no sea transgredida. 
 ## 4. Funcionalidades del sistema
 ### 4.1. Enviar mensaje y recibir mensajes en un canal de comunicación
 #### 4.1.1. Descripción y prioridad
@@ -103,17 +103,17 @@ Los usuarios entran a la aplicación, donde tendrán todos sus chats abiertos y 
 - REQ-1.5: Que el número de mensajes recibidos esté limitado sólo por la memoria del dispositivo.
 ## 4.2. Crear chats
 #### 4.2.1. Descripción y prioridad 
-Poder crear un chat con algún miembro de la organización a quien se desee enviar un mensaje personal, tendrá prioridad alta con valor 1 ya que es parte de las funcionalidades básicas del aplicativo.
+Poder crear un chat con algún miembro de la organización a quien se desee enviar un mensaje personal, tendrá prioridad alta con valor 1 ya que es parte de las funcionalidades básicas de la aplicación.
 #### 4.2.2. Secuencias Estímulo/Respuesta
 Habrá un botón de crear conversación donde puedas elegir a qué persona de la institución quieres mandar el mensaje, una vez seleccionados los destinatarios, se abrirá una nueva ventana de conversación con ese miembro del ITAM.
 #### 4.2.3. Requerimientos funcionales
 - REQ-2.1: Poder crear un grupo para mandar el mensaje seleccionando 2 o más usuarios como destinatarios.
 - REQ-2.2: Si se decide crear una conversación con alguien con quien ya se tiene un chat, solo se abrirá el chat que ya existía. 
 - REQ-2.3: Poder tener el número de chats que la memoria del dispositivo permita. 
-- REQ-2.4: Poder crear un chat con los tres distintos usuarios 
+- REQ-2.4: Poder crear un chat con los tres distintos usuarios( estudiante, docente, personal administtrativo).
 ## 4.3. Reportar un mensaje 
 #### 4.3.1. Descripción y prioridad
-Poder reportar un mensaje que se considere no cumple con el reglamento de convivencia establecido por el ITAM.
+Poder reportar un mensaje que se considere que no cumple con el reglamento de convivencia establecido por el ITAM. Esta funcionalidad tiene prioridad 2 ya que, es una funcionalidad muy importante para conservar la buena convivencia dentro de la aplicación y evitar problemas sin embargo, no es una funcionalidad primordial para el funcionamiento básico del sistema.
 #### 4.3.2. Secuencias Estímulo/Respuesta
 Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará una ventana para confirmar que se desea reportar el mensaje. Además se debe seleccionar una o más opciones de una lista, la cual contiene las razones más comúnes que causan un reporte.   
 #### 4.3.3. Requerimientos funcionales
