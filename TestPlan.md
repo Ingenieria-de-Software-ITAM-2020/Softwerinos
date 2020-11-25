@@ -17,6 +17,8 @@ Aquí se encuentra una lista de los diferentes tipos de pruebas que se harán pa
 3. Crear un nuevo chat/grupos
 4. Búsqueda
 5. Reportar ususarios
+6. Reenvio de mensajes de dudas
+7. Respaldo de mensajes (personal administrativo)
 
 
 ## 5. RIESGO DE PROBLEMAS CON EL SOFTWARE 
@@ -53,7 +55,34 @@ de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requi
 ## 13. ENVIRONMENTAL NEEDS
 ## 14. STAFFING AND TRAINING NEEDS
 ## 15. RESPONSIBILITIES
-## 16. SCHEDULE
+
+## 16. PLAN DE TRABAJO
+Para las pruebas de calidad se utilizará una metodología Scrum con sprints de duración predefinida a una semana. 
+Se considera que cada módulo se podrá realizar en un módulo de la siguiente forma:
+| Sprint | Módulo a revisar  |
+|---|---|
+| 1  |  Login |
+| 2  | Interacción de mensajes  |
+| 3  | Crear un nuevo chat/grupos  |
+| 4  | Búsqueda  |
+| 5  |  Reportar ususarios |
+| 6  |  Reenvio de mensajes de dudas |
+| 7  |  Respaldo de mensajes |       
+En cada sprint seguirá la estrategia general que incluye:
+1. Pruebas unitarias
+2. Pruebas bajo estrés
+3. Pruebas bajo ataque 
+
+
+Además se tiene el siguiente plan:
+| Semanas | Acciones                                      |
+|---------|-----------------------------------------------|
+| 1-7     | Pruebas de calidad por parte del equipo       |
+| 8       | Lanzamiento a producción                      |
+| 9-12    | Lanzamiento preeliminar para detectar errores |
+| 13      | Lanzamiento general                           |
+Se está estimando que el lanzamiento general sucederá en caso de que se pasen todas las pruebas previstas. 
+
 ## 17. PLANNING RISKS AND CONTINGENCIES
 ## 18. APPROVALS
 ## 19. GLOSSARY
