@@ -88,19 +88,24 @@ Para el correcto funcionamiento asumimos que:
 ### 3.4. Interfaces de comunicación
 ## 4. Funcionalidades del sistema
 ### 4.1. Enviar mensaje y recibir mensajes en un canal de comunicación
-#### 4.1.1. Descripción y prioridad 
-
+#### 4.1.1. Descripción y prioridad
+Este requerimiento permitirá al sistema cumplir con la funcionalidad básica de mensajería, permitirá a los usuarios enviar y recibir mensajes de texto, archivos, fotografías y videos, es nuestra funcionalidad de más alta prioridad, se le asignará el valor de prioridad 1.
 #### 4.1.2. Secuencias Estímulo/Respuesta
+Los usuarios entran a la aplicación, donde tendrán todos sus chats abiertos y una opción de nuevo mensaje, seleccionarán la conversación a la que quieren mandar el mensaje o aen el botón de nuevo mensaje podrán buscar por nombre o departamento a quien quieran mandar el mensaje. Una vez seleccionado el destinatario se abrirá la pantalla de la conversación y se podrá escribir el mensaje de texto o adjuntar los archivos. Tendrá un botón de enviar, una vez preionado este se enviará al servidor, que lo distribuirá al cliente correspondiente.
 #### 4.1.3. Requerimientos funcionales
-- REQ-1.1: 
-- REQ-1.2: 
-- REQ-1.3: 
+- REQ-1.1: Por cada mensaje no leído de alguna conversación el sistema enviará una notificación al receptor del mensaje.
+- REQ-1.2: Que el número de conversaciones abiertas sólo esté limitado por la memoria del dispositivo.
+- REQ-1.3: Que todos los mensajes enviados estén cifrados de extremo a extremo.
+- REQ-1.4: Que el sistema permita enviar el mismo mensaje a varios usuarios.
+- REQ-1.5: Que el número de mensajes recibidos esté limitado sólo por la memoria del dispositivo.
 ## 4.2. Crear chats
 #### 4.2.1. Descripción y prioridad 
+Poder crear un chat con algún miembro de la organización a quien se desee enviar un mensaje personal, tendrá prioridad alta con valor 1 ya que es parte de las funcionalidades básicas del aplicativo.
 #### 4.2.2. Secuencias Estímulo/Respuesta
+Habrá un botón de crear conversación donde puedas elegir a qué persona de la institución quieres mandar el mensaje, una vez seleccionados los destinatarios, se abrirá una nueva ventana de conversación con ese miembro del ITAM.
 #### 4.2.3. Requerimientos funcionales
-- REQ-2.1: 
-- REQ-2.2: 
+- REQ-2.1: Poder crear un grupo para mandar el mensaje seleccionando 2 o más usuarios como destinatarios.
+- REQ-2.2: Si se decide crear una conversación con alguien con quien ya se tiene un chat, solo se abrirá el chat que ya existía. 
 - REQ-2.3: 
 ## 4.3. Reportar un mensaje
 #### 4.3.1. Descripción y prioridad 
