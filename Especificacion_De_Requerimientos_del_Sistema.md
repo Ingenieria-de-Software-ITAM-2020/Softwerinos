@@ -85,7 +85,7 @@ Para el correcto funcionamiento asumimos que:
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
 El hardware del sistema es el siguiente:
-![Interfaz de Hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/interfaz_hardware.PNG)
+![Interfaz de Hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/ih1.jpg)
 En el diagrama podemos observar que los usuarios se conectan por medio de un pc o un disposito movil, donde ingresan a la aplicación. Más tarde los datos pasan a través de un firewall
 ### 3.3. Interfaces de software    
 
