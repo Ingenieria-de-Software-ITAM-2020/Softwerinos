@@ -84,23 +84,11 @@ Para el correcto funcionamiento asumimos que:
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
-La interfaz del hardware de la aplicación es el siguiente:
 
-![Interfaz de Hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/ih1.jpg)
-
-En el diagrama podemos observar que los usuarios se conectan por medio de un pc o un disposito movil, donde ingresan a la aplicación. Más tarde mediante el protocolo https, la aplicación transfiere datos a los servidores de forma segura. 
 ### 3.3. Interfaces de software
-La interfaz de software del sistema es el siguiente:
 
-![Interfaz de Software](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/is.jpg)
-
-En el diagrama podemos observar que nuestra aplicación será compatible con IOS 14 y Android 11, en adelante. Además, tendrá soporte para las últimas versiones de los navegadores web: Chrome, Opera y Firefox. También es importante señalar que nuestra aplicación requerirá de un plan con los servicios de AWS, el cuál se encarga del almacenamiento de datos en la nube. A su vez, Amazon almacena los datos en sus servidores, los cuales contienen bases de datos SQL.
 ### 3.4. Interfaces de comunicación
-La interfaz de comunicación de la aplicación es el siguiente: 
 
-![Interfaz de Software](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/ic.jpg)
-
-En este diagrama se muestran las conexiones entre cada una de las partes, que conforma todo el ecosistema en el cual cual nuestra aplicación. En primer lugar las aplicacion se conecta mediante el protocolo https a los servidores. Este protocolo sirve para encriptar la información que se transmite de un cliente a un servidor, para hacer la conexión segura. Después, los servidores se comunican con las bases de datos que albergan en ellos, mediante SQL.
 ## 4. Funcionalidades del sistema
 ### 4.1. Enviar mensaje y recibir mensajes en un canal de comunicación
 #### 4.1.1. Descripción y prioridad
