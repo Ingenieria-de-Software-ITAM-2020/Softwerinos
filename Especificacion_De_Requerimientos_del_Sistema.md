@@ -3,8 +3,6 @@
 # Preparado por Andrea de Anda Kuri, Miguel Ángel Cifuentes Jiménez, Damian Pérez Landeros, Isaías Jesús García Moreno
 # Instituto Tecnológico Autónomo de México
 # 24/11/2020
-
-
 ## Tabla de Contenidos
 1. Introducción  
  - Propósito    
@@ -32,67 +30,96 @@
  - Requerimientos de seguridad   
  - Atributos de Software de Calidad    
  - Reglas del negocio    
-
 ## 1. Introducción
 ### 1.1. Propósito
-El proposito de este documento consiste en presentar los requerimientos de un sistema que permita a los alumnos, profesores y personal administrativo del ITAM comunicarse entre si. Este documento describe la version 0 del Sistema que corresponde al prototipo interactivo.
+El proposito de este documento consiste en presentar los requerimientos de una aplicación que permita a los alumnos, profesores y personal administrativo del ITAM comunicarse entre si. Este documento describe la version 0 del Sistema que corresponde al prototipo interactivo.
 ### 1.2. Convenciones del Documento 
 Convención | Término 
 -- | --
 ITAM | Instituto Tecnológico Autónomo de México
 TI | Tecnologías de Información 
+AWS | Amazon Web Services
 ### 1.3. Audiencia, Objetivo y Sugerencias de Lectura
 Este documento está dirigido al departamento de TI del ITAM y al equipo de desarrollo del proyecto, con el objetivo de explicar las funcionalidades del sistema y sus características. Este documento contiene la información necesaria para comprender el funcionamiento, objetivo, realización y el uso del producto.
 Se recomienda que la lectura de este documento sea de forma secuencial, acorde a la tabla de contenido. 
 ### 1.4. Alcance del producto
-Proponemos un sistema para que los alumnos, profesores y personal administrativo del ITAM puedan comunicarse entre si. Se espera que este sistema facilite la comunicación de la comunidad ITAM dentro de un solo espacio ya que anteriormente, el contacto se realizaba por sistemas externos. 
+Proponemos una aplicación para que los alumnos, profesores y personal administrativo del ITAM puedan comunicarse entre si. Se espera que este sistema facilite la comunicación de la comunidad ITAM dentro de un solo espacio ya que anteriormente, el contacto se realizaba por sistemas externos. 
 Objetivos:
  - Que la comunidad ITAM (alumnos, profesores y personal administrativo) pueda comunicarse entre si, dentro de un sistema único.
  - Que la comunicación se establezca de manera efectiva y segura; definimos como efectiva la brevedad de las respuestas de las distintas partes, que tendrán un tiempo esperado de dos días.  
- - Que este sistema fomente la cohesión de la comunidad, a través de la apertura de canales de comunicación.  
+ - Que esta aplicación fomente la cohesión de la comunidad, a través de la apertura de canales de comunicación.  
 ## 2. Descripción General
 ### 2.1. Perspectiva del producto
-Este sistema busca engoblar dentro de un ambiente único la comunicación entre alumnos, profesores y personal administrativo del ITAM. Actualmente el contacto se realiza con sistemas externos y esto ocaciona confusión, lo cual afecta la comunicación entre las tres partes. Este producto surge como una solución para integrar la comunicación de la comunidad estudiantil del ITAM, de manera centralizada.   
+Esta aplicación busca engoblar dentro de un ambiente único la comunicación entre alumnos, profesores y personal administrativo del ITAM. Actualmente el contacto se realiza con sistemas externos y esto ocaciona confusión, lo cual afecta la comunicación entre las tres partes. Este producto surge como una solución para integrar la comunicación de la comunidad estudiantil del ITAM, de manera centralizada.   
 ### 2.2. Funciones del Producto
 - Establecer un canal de comunicación confiable entre alumnos, profesores y personal administrativo del ITAM. 
 - Asegurar que el alumno obtenga una respuesta en tiempo promedio de 36 horas. 
 - Respaldar las conversaciones pasadas para resolver conlfictos puedan surgir.
 - Que los usuarios puedan valorar la comuncación y la información que obtuvieron de ella, para mejorar la experiencia futura. 
 - Reportar conducta inapropiada de todas las partes.
+- Agendar citas con profesores o personal administrativo. 
 ### 2.3. Clases y Características del usuario.
 Usuarios | Descripción 
 -- | --
-Estudiante | Persona inscrita en el ITAM que puede enviar mensajes a los demas usuarios, evaluar las respuestas recibidas, reportar, crear chats privados o grupales
-Docente | 
-Personal administrativo | 
-TI(administradores del sistema) |
+Estudiante | Persona inscrita en el ITAM que puede enviar mensajes a los demas usuarios, evaluar las respuestas recibidas, reportar, crear canales de comunicación privados o grupales y agendar citas con profesores y personal administrativo.
+Docente | Empleado del ITAM que puede enviar mensajes a los demas usuarios, evaluar las respuestas recibidas, reportar, crear canales de comunicación privados o grupales y recibir citas de estudiantes.
+Personal administrativo | Empleado del ITAM que puede enviar mensajes a los demas usuarios, evaluar las respuestas recibidas, reportar, crear canales de comunicación privados o grupales y recibir citas de estudiantes.
+TI(administradores del sistema) | Personas encargadas de gestionar el sistema y mantener su correcto funcionamiento. Además pueden revisar los reportes y obtener el historial de mensajes de un usuario, reportar usuarios y verificar que los grupos sean correctos.
 ### 2.4. Ambiente de operación
-### 2.5. Documentación
-### 2.6. Dependencias y asunciones
+La aplicación será desarrollada para tener soporte para Android 11, IOS 14 y en las ultimas versiones de los siguientes navegadores web: Chrome, FireFox, Safari, etc. La aplicación la realizaremos en kivy (python) y el manejo de los datos con AWS. 
+### 2.5. Restricciones en el diseño y la implementación
+- Diseño: la elaboración de los grupo debe ir acorde a la información de inscripción del ITAM. Además el diseño esta restringido por los navegadores web y el ambiente de desarrollo kivy. 
+- Hardware: principalmente la aplicación está sujeta al servicio que se contrata con AWS. 
+- Seguridad: está sujeta a las políticas y manejo por parte de AWS. Además, el manejo de los datos está sujeto al reglamento interno del ITAM. 
+### 2.6. Documentación
+Dentro de la documentación se encuentra:
+- Manual de usuario: un manual de usuario para los cuatro tipos de usuarios (estudiante, docente, personal administrativo y TI), que contiene el manejo correcto de la aplicación.
+- Videos tutoriales: estos videos explicarán de manera gráfica y concisa, distintas funcionalidades de la aplicación.
+### 2.7. Dependencias y asunciones
+Para el correcto funcionamiento asumimos que:
+- El ITAM está dispuesto a pagar AWS, para mantener la aplicación funcional.
+- Que el tráfico de usuarios va a permanecer dentro de un rango en el cual la escabilidad no sea necesaria ya que, el ITAM mantendrá el número de alumnos dentro de este rango.
+- Que los servidores de AWS funcionen correctamente.
+- Que nuestro producto cumpla con las políticas de buen uso de AWS.
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
 ### 3.3. Interfaces de software    
 ### 3.4. Interfaces de comunicación
 ## 4. Funcionalidades del sistema
-### 4.1. Funcionalidad 1
+### 4.1. Enviar mensaje y recibir mensajes en un canal de comunicación
 #### 4.1.1. Descripción y prioridad 
+
 #### 4.1.2. Secuencias Estímulo/Respuesta
 #### 4.1.3. Requerimientos funcionales
 - REQ-1.1: 
 - REQ-1.2: 
 - REQ-1.3: 
-## 4.2. Funcionalidad 2
+## 4.2. Crear chats
 #### 4.2.1. Descripción y prioridad 
 #### 4.2.2. Secuencias Estímulo/Respuesta
 #### 4.2.3. Requerimientos funcionales
 - REQ-2.1: 
 - REQ-2.2: 
 - REQ-2.3: 
-## 4.3. Funcionalidad 3
+## 4.3. Reportar un mensaje
 #### 4.3.1. Descripción y prioridad 
 #### 4.3.2. Secuencias Estímulo/Respuesta
 #### 4.3.3. Requerimientos funcionales
+- REQ-3.1: 
+- REQ-3.2: 
+- REQ-3.3: 
+## 4.4. Reenvio temporizado de mensajes de duda
+#### 4.4.1. Descripción y prioridad 
+#### 4.4.2. Secuencias Estímulo/Respuesta
+#### 4.4.3. Requerimientos funcionales
+- REQ-3.1: Reenviar un mensaje a los profesores después de 12 horas
+- REQ-3.2: Reenviar un mensaje a los alumnos de la materia después de 24 horas
+- REQ-3.3: 
+## 4.5. Agendar citas
+#### 4.5.1. Descripción y prioridad 
+#### 4.5.2. Secuencias Estímulo/Respuesta
+#### 4.5.3. Requerimientos funcionales
 - REQ-3.1: 
 - REQ-3.2: 
 - REQ-3.3: 
