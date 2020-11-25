@@ -1,6 +1,7 @@
 # Test Plan (IEEE format)
 
 ## 1. TEST PLAN IDENTIFIER
+MTP-X Æ A-12
 
 ## 2. REFERENCIAS
 Ninguna identificada
@@ -51,6 +52,11 @@ Para atender los "issues" se está manejando una política de "min flow time," p
 de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requiera utilizarlos.
 
 ## 11. TEST DELIVERABLES
+1. Plan de aceptación o rechazp
+2. Reporte de resultados de las pruebas unitarias.
+3. Reporte de los mock-ups
+4. Reporte de incidentes
+
 ## 12. REMAINING TEST TASKS
 ## 13. ENVIRONMENTAL NEEDS
 ## 14. STAFFING AND TRAINING NEEDS
@@ -87,6 +93,18 @@ Además se tiene el siguiente plan:
 
 Se está estimando que el lanzamiento general sucederá en caso de que se pasen todas las pruebas previstas. 
 
-## 17. PLANNING RISKS AND CONTINGENCIES
-## 18. APPROVALS
-## 19. GLOSSARY
+## 17. RIESGO DE PLANEACIÓN Y EN CASO DE CONTINGENCIA
+Para este proyecto se está considerando que el equipo esta formado por cuatro desarrolladores junior, es decir, hay que tomar en cuenta que
+las fechas pueden variar entre la estimación y las fechas reales. Además, la pandemia actual llegó con diferentes retos para todos, por lo que se entenderá que se cambien las fechas de los sprints. Pero, esto no implica que se podrá lanzar el software sin hacer las debidas pruebas, en caso de que haya problemas se 
+tendrán que modificar las fechas de entrega, el alcance o el costo. 
+
+## 18. APROBACIÓN
+Lider del Proyecto - Andrea de Anda Kuri
+Test Manager - Miguel Ángel Cifuentes Jiménez
+Architecture manager - Damian Pérez Landeros
+Representante del equipo - Isaías Jesús García Moreno
+
+## 19. GLOSARIO
+
+
+
