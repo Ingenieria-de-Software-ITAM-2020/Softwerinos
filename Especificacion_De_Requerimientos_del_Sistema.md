@@ -84,7 +84,7 @@ Para el correcto funcionamiento asumimos que:
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
 ### 3.2. Interfaces del hardware
-La interfaz del hardware del sistema es el siguiente:
+La interfaz del hardware de la aplicación es el siguiente:
 
 ![Interfaz de Hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/ih1.jpg)
 
@@ -96,7 +96,11 @@ La interfaz de software del sistema es el siguiente:
 
 En el diagrama podemos observar que nuestra aplicación será compatible con IOS 14 y Android 11, en adelante. Además, tendrá soporte para las últimas versiones de los navegadores web: Chrome, Opera y Firefox. También es importante señalar que nuestra aplicación requerirá de un plan con los servicios de AWS, el cuál se encarga del almacenamiento de datos en la nube. A su vez, Amazon almacena los datos en sus servidores, los cuales contienen bases de datos SQL.
 ### 3.4. Interfaces de comunicación
+La interfaz de comunicación de la aplicación es el siguiente: 
 
+![Interfaz de Software](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/ic.jpg)
+
+En este diagrama se muestran las conexiones entre cada una de las partes, que conforma todo el ecosistema en el cual cual nuestra aplicación. En primer lugar las aplicacion se conecta mediante el protocolo https a los servidores. Este protocolo sirve para encriptar la información que se transmite de un cliente a un servidor, para hacer la conexión segura. Después, los servidores se comunican con las bases de datos que albergan en ellos, mediante SQL.
 ## 4. Funcionalidades del sistema
 ### 4.1. Enviar mensaje y recibir mensajes en un canal de comunicación
 #### 4.1.1. Descripción y prioridad
@@ -117,13 +121,16 @@ Habrá un botón de crear conversación donde puedas elegir a qué persona de la
 #### 4.2.3. Requerimientos funcionales
 - REQ-2.1: Poder crear un grupo para mandar el mensaje seleccionando 2 o más usuarios como destinatarios.
 - REQ-2.2: Si se decide crear una conversación con alguien con quien ya se tiene un chat, solo se abrirá el chat que ya existía. 
-- REQ-2.3: 
-## 4.3. Reportar un mensaje
-#### 4.3.1. Descripción y prioridad 
+- REQ-2.3: Poder tener el número de chats que la memoria del dispositivo permita. 
+- REQ-2.4: Poder crear un chat con los tres distintos usuarios 
+## 4.3. Reportar un mensaje 
+#### 4.3.1. Descripción y prioridad
+Poder reportar un mensaje que se considere no cumple con el reglamento de convivencia establecido por el ITAM.
 #### 4.3.2. Secuencias Estímulo/Respuesta
+Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará una ventana para confirmar que se desea reportar el mensaje. Además se debe seleccionar una o más opciones de una lista, la cual contiene las razones más comúnes que causan un reporte.   
 #### 4.3.3. Requerimientos funcionales
-- REQ-3.1: 
-- REQ-3.2: 
+- REQ-3.1: Poder reportar multiples mensajes dentro de un mismo chat
+- REQ-3.2: Al momento de reportar un mensaje, recibir un correo con la información del reporte para su futuro seguimiento.
 - REQ-3.3: 
 ## 4.4. Reenvio temporizado de mensajes de duda
 #### 4.4.1. Descripción y prioridad 
