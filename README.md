@@ -1,5 +1,6 @@
-# BLATT ITAM
-## Por Los Softwerinos
+# ![BLATT ITAM](.imagenes/logoSoftwerinos.png)
+Equipo: Los Softwerinos    
+Integrantes:
 - Andrea de Anda Kuri
 - Miguel Ángel Cifuentes Jiménez
 - Damian Pérez Landeros
@@ -15,3 +16,7 @@ Ir al documento del [Plan de Calidad](./TestPlan.md)
 Para desarrollar "BLATT ITAM" se ha optado por una arquitectura de **microservicios.**
 
 ## 4. Metodología
+
+## 5. Documento para replicar
+
+## 6. Presentación
