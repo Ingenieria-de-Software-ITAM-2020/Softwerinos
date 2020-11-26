@@ -1,4 +1,4 @@
-# ![BLATT ITAM](.imagenes/logoSoftwerinos.png)
+# ![BLATT ITAM](./imagenes/logoSoftwerinos.png)
 Equipo: Los Softwerinos    
 Integrantes:
 - Andrea de Anda Kuri
