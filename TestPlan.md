@@ -4,7 +4,7 @@
 MTP-X Æ A-12
 
 ## 2. REFERENCIAS
-Ninguna identificada
+Este plan de calidad está respaldado por el siguiente documento: [SRS](./Especificacion_De_Requerimientos_del_Sistema.md)
 
 ## 3. INTRODUCCIÓN
 A continuación se encuentra el plan de calidad del proyecto **BLATT ITAM**. 
