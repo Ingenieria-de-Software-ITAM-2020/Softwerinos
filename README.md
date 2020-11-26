@@ -1,3 +1,5 @@
+<div style="text-align:justify"> 
+
 <p align="center">
   <img width="600" src="./imagenes/logoSoftwerinos.png">
 </p>
@@ -24,9 +26,8 @@ El diagrama de la arquitectura de BLATT es:
 
 Optamos por utilizar una arquitectura de microservicios simple y sencillamente por que consideramos que es la mejor para el desarrollo 
 de nuestra aplicación. 
-Las ventajas de este tipo de arquitectura son su agilidad, facilidad de despliegue, facilidad de probar, desempeño y facilidad de desarrollar. 
-Por otra parte, la desventaja es que al tener diferentes plug-ins puede ser muy complicado escalarlo. Decidimos que la desventaja de esta arquitectura, en este caso en particular no nos afecta pues desde el inicio conocemos exactamente que es lo que necesitamos: una plataforma en la que la comunidad del ITAM pueda comunicarse. 
-
+Las ventajas de este tipo de arquitectura son su agilidad, facilidad de despliegue, facilidad de probar, escalabilidad y facilidad de desarrollar. 
+Por otra parte, la desventaja es que al tener muchos usuarios el desempeño puede ser lento, sin embargo, la plataforma está diseñada para uso exclusivo de la comunidad ITAM entonces no necesitamos que soporte cantidades muy grandes de usuarios. 
 
 ## 4. Metodología
 Para el desarrollo de la aplicación utilizamos la metodología SCRUM ya que, de esta manera logramos tener resultados funcionales en poco tiempo. 
@@ -36,3 +37,7 @@ Es importante recalcar que en este caso no tuvimos un product owner ya que, no t
 ## 5. Documento para replicar
 
 ## 6. Presentación
+
+
+
+ </div>
