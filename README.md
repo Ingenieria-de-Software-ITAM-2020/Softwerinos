@@ -18,7 +18,15 @@ Ir al documento del [SRS](./Especificacion_De_Requerimientos_del_Sistema.md)
 Ir al documento del [Plan de Calidad](./TestPlan.md)
 
 ## 3. Arquitectura
-Para desarrollar "BLATT ITAM" se ha optado por una arquitectura de **microservicios.**
+### Microservicios  
+El diagrama de la arquitectura de BLATT es:
+%aquí va a ir el diagrama cuando lo acabe, los tqm
+
+Optamos por utilizar una arquitectura de microservicios simple y sencillamente por que consideramos que es la mejor para el desarrollo 
+de nuestra aplicación. 
+Las ventajas de este tipo de arquitectura son su agilidad, facilidad de despliegue, facilidad de probar, desempeño y facilidad de desarrollar. 
+Por otra parte, la desventaja es que al tener diferentes plug-ins puede ser muy complicado escalarlo. Decidimos que la desventaja de esta arquitectura, en este caso en particular no nos afecta pues desde el inicio conocemos exactamente que es lo que necesitamos: una plataforma en la que la comunidad del ITAM pueda comunicarse. 
+
 
 ## 4. Metodología
 Para el desarrollo de la aplicación utilizamos la metodología SCRUM ya que, de esta manera logramos tener resultados funcionales en poco tiempo. 
