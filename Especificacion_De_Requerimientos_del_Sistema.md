@@ -138,11 +138,15 @@ El reenvio de los mensajes comenzara 12 horas después que el mensaje fue enviad
 - REQ-4.5: Que el sistema reenvie el número de mensajes que se hayan mandado y no tengan respuesta. Es decir, si se mando un mensaje de texto con un archivo, el sistema reenviará el mensaje de texto con el archivo. 
 ## 4.5. Agendar citas
 #### 4.5.1. Descripción y prioridad 
+Dentro de la aplicación se puede tener la opción de agendar una cita. Dicha cita es para resolver dudas con el profesor, o realizar algún trámite con un personal administrativo.
 #### 4.5.2. Secuencias Estímulo/Respuesta
+Habrá un boton para agendar una cita. Al presionar el botón se desplegará una pantalla con los contactos con los que se puede agendar una cita. Al seleccionar el contacto con el que deseas agendar una cita, se desplegara información para detallar la fecha y el lugar de la cita. Más tarde se seleccionará un boton para confirmar la cita el cual, desplegará una pantalla con la información de la cita y un boton de salir.
 #### 4.5.3. Requerimientos funcionales
-- REQ-5.1: 
-- REQ-5.2: 
-- REQ-5.3: 
+- REQ-5.1: Que el sistema permita agendar una cita con cualquier tipo de usuario(estudiantes, profesores, personal administrativo)
+- REQ-5.2: Que el sistema permita que se puedan realizar multiples citas, incluso cuando ya se tienen otras citas agendadas.
+- REQ-5.3: Que el sistema no permita agendar una cita en un horario en que se haya agendado una cita previamente. 
+- REQ-5.4: Que el sistema realice permita ir a la pagina del ITAM para realizar una cita con profesores de otros departamentos, a los cursos que se tienen escritos en el semestre en curso.
+- REQ-5.5: Que el sistema permita realizar una cita con más de un usuario.
 ## 5. Otros Requerimientos No Funcionales
 ### 5.1. Requerimientos operacionales
 Los requerimientos de rendimiento nos exigen a que se satisfaga la demanda por el producto bajo todos los escenarios de estrés que al que se exponga. Para esto tenemos que considerar el número de usuarios que usarán la aplicación. El ITAM tiene 5 mil alumnos,200 profesores y 100 usuarios administrativos contando a los de IT, por lo que el sistema debe tener capacidad de atender los requests de estos 5300 usuarios. Además se espera tener un pico de usuarios en los meses de agosto a octubre de aproximadamenre 500 alumnos más, y de enero a marzo de 100 alumnos. Por lo tanto tendremos que cubrir la capacidad para 5800 usuarios. 
