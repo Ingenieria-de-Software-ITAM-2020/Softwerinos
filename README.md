@@ -1,12 +1,15 @@
 <p align="center">
   <img width="600" src="./imagenes/logoSoftwerinos.png">
 </p>
-Equipo: Los Softwerinos    
-Integrantes:
-- Andrea de Anda Kuri
-- Miguel Ángel Cifuentes Jiménez
-- Damian Pérez Landeros
-- Isaías Jesús García Moreno
+
+
+Equipo: **Los Softwerinos**   
+
+Integrantes:     
+- Andrea de Anda Kuri           
+- Miguel Ángel Cifuentes Jiménez            
+- Damian Pérez Landeros             
+- Isaías Jesús García Moreno          
 
 ## 1. Software Requirements
 Ir al documento del [SRS](./Especificacion_De_Requerimientos_del_Sistema.md)
