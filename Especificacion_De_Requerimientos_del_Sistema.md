@@ -83,6 +83,55 @@ Para el correcto funcionamiento asumimos que:
 - Que nuestro producto cumpla con las políticas de buen uso de AWS.
 ## 3. Requerimientos de Interfaces Externas
 ### 3.1. Interfaces de usuario
+La aplicación está destinado para el uso de los estudiantes, docentes y personal administrativo del ITAM. De tal de modo que todo el diseño está basado en el ITAM. Sin embargo, con el fin de hacer más flexible y accesible para los usuarios, hemos introducido un modo para personas daltónicas. De modo que las pantallas a continuación presentadas tienen la versión para personas daltónicas y para las personas sin este problema. Por practicidad presentaremos la versión para no daltónicos, pero siempre recordando lo anterior.
+
+![Pantalla login](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_login.PNG)
+![Pantalla login daltonicos](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_dalt.PNG)
+
+
+En ambas imagenes podemos observar la pantalla de login. En dicha pantalla encontramos dos opciones: crear cuenta y elige usuario. La primera opcion te permite crear una cuenta para poder usar la aplicación y la segunda te da la opcion de elegir un tipo de usuario(estudiante, docente y personal administrativo). Al elegir alguna de las opciones, se tendrá que ingresar los datos de una cuenta previamente creada y así acceder a las funcionalidades de la aplicación. 
+En la imagen derecha observamos las versión para personas que tiene daltonismo.
+
+Al ingresar la pantalla que observamos es la siguientes:
+
+![Inicio 1](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_inicio1.PNG)
+
+![Inicio 2](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_inicio2.PNG)
+
+En esta pantalla observamos las noticias más importantes, nuestras conversaciones y citas agendadas, los distintos departamentos que podemos contactar y un boton para realizar una cita.
+
+En el caso que decidamos abrir una nueva conversación la pantalla que veremos es la siguiente:
+
+![Nuevo chat](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_nuevoMensaje.PNG)
+
+Podemos obsevar que en esta parte debemos elegir un usuario(estudiante, docente o personal administrativo) y despues accionar el boton de *iniciar conversación*.
+Al accionar este botón la pantalla que aparece es la siguiente: 
+
+![Dentro chat](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_chat.PNG)
+
+En esta imagen podemos observar el interior de una conversación. Es importante recalcar, que esta pantalla es la misma que se acciona al abrir una conversación existente. En esta pantalla tenemos la opción de visualizar los miembros de la conversación, visualizar los mensajes que se han enviado en al conversación y enviar un mensaje.
+El mensaje que se manda se debe escribir dentro de la caja de texto y después accionar el botón de *enviar*.
+
+Ahora regresando a la pantalla de inicio, si decidimos agendar una cita con el botón de *agendar cita* encontraremos esta pantalla:
+
+![Agendar cita](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_citas1.PNG)
+
+![Agendar cita](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_citas2.PNG)
+
+En esta pantalla podemos ver que al principio debemos seleccionar un usuario con el cual queremos realizar una cita, un proceso parecido al que hacemos al crear una nueva conversación. Sin embargo, en este caso debemos llenar la información de la cita en cajas de texto que se encuentran en la parte inferior. Una vez que sepamos que la información es correcta, al accionar el botón *agendar cita* confirmaremos la cita. Esta acción hará aparecer un cuadro saliente con la información de nuestra cita recien agendada y con el botón *listo* la podemos minimizar.
+
+![Confirmación cita](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_citas3.PNG)
+
+Además en nuestro inicio cuando seleccionemos la cita agendada podemos ver de nuevo la información de la cita y se ve de esta manera:
+
+![Info cita](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_citas4.PNG)
+
+Por último, dentro de las conversaciónes es posible reportar un mensaje. A esta acción debe recurrirse cuando un usuario incumple algún reglamento de convivencia establecido por el ITAM. 
+
+![Reportar mensaje](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_reportar.PNG)
+
+En la imagen anterior podemos observar el resultado de realizar la acción previamente descrita.
+
 ### 3.2. Interfaces del hardware
 La aplicación esta principalmente destinada a los dispositivos móviles sin embargo, es posible utilizarla en ordenadores. Es importante denotar que en ambos caso se debe tener una conexión a internet. 
 ### 3.3. Interfaces de software
