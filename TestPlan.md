@@ -28,7 +28,7 @@ Se han identificado los siguientes riesgos:
 2) Problemas con la interfaz
 3) Problemas con los servidores
 4) Problemas con que el sistema pierda los mensajes.
-5) 
+
 
 ## 6. FUNCIONALIDADES A PROBAR
 - REQ-1.1: Por cada mensaje no leído de alguna conversación el sistema enviará una notificación al receptor del mensaje.
@@ -69,7 +69,7 @@ Los diferentes tipos de pruebas que se harán son:
 Se considerará que el Software estará listo una vez que haya cumplido con un periodo de pruebas de 90 días sin tener fallas. (ver sección 16 para el plan general)
 
 ## 10. CRITERIOS DE SUSPENSIÓN Y REQUISITOS DE REANUDACIÓN
-Se deberá para en caso de que:
+Se deberá parar en caso de que:
 1) Los mensajes no se estén enviando (por parte del usuario 1) y llegando (al usuario 2) en el orden correcto.
 2) Los mensajes no estén llegando
 3) Los mensajes estén llegando a un usuario incorrecto    
@@ -77,7 +77,7 @@ Para atender los "issues" se está manejando una política de "min flow time," p
 de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requiera utilizarlos.
 
 ## 11. ENTREGABLES
-1) Plan de aceptación o rechazp
+1) Plan de aceptación o rechazo
 2) Reporte de resultados de las pruebas unitarias.
 3) Reporte de los mock-ups
 4) Reporte de incidentes
