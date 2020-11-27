@@ -115,6 +115,8 @@ Habrá un botón de crear conversación donde puedas elegir a qué persona o per
 ### 4.3. Reportar un mensaje 
 #### 4.3.1. Descripción y prioridad
 Poder reportar un mensaje que se considere que no cumple con el reglamento de convivencia establecido por el ITAM. Esta funcionalidad tiene prioridad 2 ya que, es una funcionalidad muy importante para conservar la buena convivencia dentro de la aplicación y evitar problemas sin embargo, no es una funcionalidad primordial para el funcionamiento básico del sistema.
+
+
 #### 4.3.2. Secuencias Estímulo/Respuesta
 Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará una ventana para confirmar que se desea reportar el mensaje. Además se debe seleccionar una o más opciones de una lista, la cual contiene las razones más comúnes que causan un reporte.   
 #### 4.3.3. Requerimientos funcionales
@@ -127,6 +129,9 @@ Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará
 ### 4.4. Reenvio temporizado de mensajes de duda
 #### 4.4.1. Descripción y prioridad 
 Para evitar que una duda se quede sin respuesta, el usuario podrá recibir respuesta de los demás profesores que imparten la materia y de los estudiantes que la están cursando. Esta funcionalidad tiene prioridad alta 2, ya que es de suma importancia que las dudas de los alumnos se resuelvan en un tiempo promedio de 24 horas. 
+
+Es importante notar que no todos los mensajes serán reenviados en caso de no tener respuesta, esta funcionalidad se está pensando como una medida extrema, por lo que es necesario que el usuario especifique que desea que su ,ensaje se reenvie a las personas indicadas en caso de no tener respuesta (clasificar el mensaje como *mensaje de duda*). 
+
 #### 4.4.2. Secuencias Estímulo/Respuesta
 El reenvio de los mensajes comenzara 12 horas después que el mensaje fue enviado, si dentro de este plazo el profesor al que se le envió la duda responde la pregunta, no será necesario reenviar el mensaje a los profesores de otros grupos. Más tarde si se cumple un plazo de 24 horas sin recibir respuesta, el mensaje será reenviado a los alumnos del grupo para ellos tambíen puedan responder a la pregunta.
 #### 4.4.3. Requerimientos funcionales
@@ -139,6 +144,10 @@ El reenvio de los mensajes comenzara 12 horas después que el mensaje fue enviad
 ### 4.5. Agendar citas
 #### 4.5.1. Descripción y prioridad 
 Dentro de la aplicación se puede tener la opción de agendar una cita. Dicha cita es para resolver dudas con el profesor, o realizar algún trámite con un personal administrativo.
+
+Es importante notar que aunque cuando el usuario agende una cita se guardará y se podrá ver como una cita agendada, al receptor se le enviará una *invitación*. Una vez que el receptor confirme la invitación, al usuario que la agenda le llegará un mensaje y será entonces cuando podrá estar seguro de que la cita está confirmada; sin embargo, se podrá ver la cita programada en el calendario desde antes de que esté confirmada para prevenir que un usuario agende muchas citas en un mismo horario. 
+ Se debrerá de avisar el horario deseado y el lugar sugerido de reunión, este lugar puede ser presencial o puede ser online. En caso de ser online se sugiere que se adjunte una liga a Zoom, Teams o el medio deseado de reunión. 
+
 #### 4.5.2. Secuencias Estímulo/Respuesta
 Habrá un boton para agendar una cita. Al presionar el botón se desplegará una pantalla con los contactos con los que se puede agendar una cita. Al seleccionar el contacto con el que deseas agendar una cita, se desplegara información para detallar la fecha y el lugar de la cita. Más tarde se seleccionará un boton para confirmar la cita el cual, desplegará una pantalla con la información de la cita y un boton de salir.
 #### 4.5.3. Requerimientos funcionales
@@ -177,4 +186,11 @@ La aplicación busca que todos puedan mensajear a cualquiera de los usuarios, la
 Las reglas de contenido serán impuestas por el reglamento de comportamiento para alumnos y empleados del ITAM. 
 
 ## Apéndice A: Glosario
+| Palabra | Definición |
+|---------|------------|
+|Administrativo|Personal que trabaja en el ITAM, puede ser en becar, caja, biblioteca, etc.|
+|    BLATT     |  Nombre del proyecto del equipo Softwerinos     |
+|    Softwerinos     |    Equipo de la materia de Ingenieria de Software del ITAM      |
+|      ITAM   |        Instituto Tecnológico Autónomo de México    |
+
 ## Apéndice B: Análisis

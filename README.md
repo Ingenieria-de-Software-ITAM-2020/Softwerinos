@@ -47,7 +47,7 @@ Adicionalmente, consideramos que una ventaja de esta metodología es el "pair pr
 ## 5. Documento para replicar
 
 ## 6. Presentación
-
+La presentación que se expuso en clase el 27 de noviembre se puede ver [aquí](./presentacionProyecto.pdf)
 
 
  </div>
