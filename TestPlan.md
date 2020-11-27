@@ -161,6 +161,3 @@ Representante del equipo - Isaías Jesús García Moreno
 |    BLATT     |  Nombre del proyecto del equipo Softwerinos     |
 |    Softwerinos     |    Equipo de la materia de Ingenieria de Software del ITAM      |
 |      ITAM   |        Instituto Tecnológico Autónomo de México    |
-
-
-
