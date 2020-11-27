@@ -22,7 +22,10 @@ Ir al documento del [Plan de Calidad](./TestPlan.md)
 ## 3. Arquitectura
 ### Microservicios  
 El diagrama de la arquitectura de BLATT es:
-%aquí va a ir el diagrama cuando lo acabe, los tqm
+
+<p align="center">
+  <img width="600" src="./imagenes/arq.png">
+</p>
 
 Optamos por utilizar una arquitectura de microservicios simple y sencillamente por que consideramos que es la mejor para el desarrollo 
 de nuestra aplicación. 
