@@ -48,6 +48,7 @@ Es importante recalcar que en este caso no tuvimos un product owner ya que, no t
 
 Adicionalmente, consideramos que una ventaja de esta metodología es el "pair programming" en conjunto con la comunicación necesaria para lograr terminar con todo. Fue un proceso algo complicado pues, al ser final del semestre, todos teníamos muchas responsabilidades; sin embargo, mantenernos en comunicación constante y trabajar como un equipo que no le tiene miedo al cambio fue algo que nos permitió disfrutar el proceso y terminar en tiempo y forma. 
 ## 5. Documento para replicar
+[Manual de usuario](./BLATT ITAM.pdf)
 
 ## 6. Presentación
 La presentación que se expuso en clase el 27 de noviembre se puede ver [aquí](./presentacionProyecto.pdf)
