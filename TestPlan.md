@@ -23,16 +23,17 @@
 1) Glossary
 
 
-## 1. TEST PLAN IDENTIFIER
-MTP-X Æ A-12
+## 1. IDENTIFICADOR DEL PLAN
+MasterTestPlan-X Æ A-12
 
 ## 2. REFERENCIAS
 Este plan de calidad está respaldado por el siguiente documento: [SRS](./Especificacion_De_Requerimientos_del_Sistema.md)
 
 ## 3. INTRODUCCIÓN
 A continuación se encuentra el plan de calidad del proyecto **BLATT ITAM**. 
-En este documento se encuetra un plan detallado que cuenta con todas las pruebas de calidad que se harán para asegurarse que el software es 
-un software seguro. 
+El objetivo de este documento es determinar un plan detallado que cuente con todas las pruebas de calidad que se harán para asegurarse que el software cumple con todas las funcionalidades requeridas para un sistema de comunicación entre los miembros de la comunidad ITAM. Adicionalmente, se harán pruebas para asegurarse que el software puede considerarse *seguro* y funciona de una manera *amigable*.
+
+
 
 ## 4. MÓDULOS A PROBAR
 Aquí se encuentra una lista de los diferentes tipos de pruebas que se harán para la **Versión 0**:
@@ -40,10 +41,9 @@ Aquí se encuentra una lista de los diferentes tipos de pruebas que se harán pa
 2. Interacción de mensajes
 3. Crear un nuevo chat/grupos
 4. Búsqueda
-5. Reportar ususarios
+5. Reportar mensajes
 6. Reenvio de mensajes de dudas
-7. Respaldo de mensajes (personal administrativo)
-
+7. Agendar citas
 
 ## 5. RIESGO DE PROBLEMAS CON EL SOFTWARE 
 Se han identificado los siguientes riesgos:
@@ -69,17 +69,17 @@ Se considerará que el Software estará listo una vez que haya cumplido con un p
 
 ## 10. SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
 Se deberá para en caso de que:
-1. Los mensajes no se estén enviando (por parte del usuario 1) y llegando (al usuario 2) en el orden correcto.
-2. Los mensajes no estén llegando
-3. Los mensajes estén llegando a un usuario incorrecto    
+1) Los mensajes no se estén enviando (por parte del usuario 1) y llegando (al usuario 2) en el orden correcto.
+2) Los mensajes no estén llegando
+3) Los mensajes estén llegando a un usuario incorrecto    
 Para atender los "issues" se está manejando una política de "min flow time," por lo que se optimizarán los recursos para trabajar con los "issues"
 de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requiera utilizarlos.
 
 ## 11. TEST DELIVERABLES
-1. Plan de aceptación o rechazp
-2. Reporte de resultados de las pruebas unitarias.
-3. Reporte de los mock-ups
-4. Reporte de incidentes
+1) Plan de aceptación o rechazp
+2) Reporte de resultados de las pruebas unitarias.
+3) Reporte de los mock-ups
+4) Reporte de incidentes
 
 ## 12. REMAINING TEST TASKS
 Se está considerando que las funcionalidades y requerimientos que tengan prioridad baja se lanzarán después del lanzamiento general. 
@@ -107,9 +107,9 @@ Se considera que cada módulo se podrá realizar en un módulo de la siguiente f
 | 2  | Interacción de mensajes  |
 | 3  | Crear un nuevo chat/grupos  |
 | 4  | Búsqueda  |
-| 5  |  Reportar ususarios |
+| 5  |  Reportar mensajes |
 | 6  |  Reenvio de mensajes de dudas |
-| 7  |  Respaldo de mensajes | 
+| 7  |  Agendar citas | 
 
 
 En cada sprint seguirá la estrategia general que incluye:
