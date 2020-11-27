@@ -50,11 +50,32 @@ Se han identificado los siguientes riesgos:
 1. Seguridad
 2. Problemas con la interfaz
 
-## 6. FEATURES TO BE TESTED
+## 6. FUNCIONALIDADES A PROBAR
+- REQ-1.1: Por cada mensaje no leído de alguna conversación el sistema enviará una notificación al receptor del mensaje.
+- REQ-1.3: Que todos los mensajes enviados estén cifrados de extremo a extremo.
+- REQ-1.4: Que el sistema permita enviar el mismo mensaje a varios usuarios.
+- REQ-2.1: Poder crear un grupo para mandar el mensaje seleccionando dos o más usuarios como destinatarios.
+- REQ-2.2: Si se decide crear una conversación con alguien con quien ya se tiene un chat, solo se abrirá el chat que ya existía. 
+- REQ-2.4: Poder crear un chat con los tres distintos usuarios (estudiante, docente, personal administtrativo).
+- REQ-3.1: Poder reportar multiples mensajes dentro de un mismo chat.
+- REQ-3.2: Poder seleccionar múltiples razones por la cual se realiza el reporte.
+- REQ-3.3: Que el sistema permita reportar indistintamente del tipo de usuario (estudiantes, docentes, personal administrativo).
+- REQ-3.4: Que el sistema permita escribir sobre una caja de texto otra razón por la cual se realizó el reporte, en el caso de que la lista de razones más comúnes no sea suficiente. 
+- REQ-4.1: Reenviar un mensaje a los profesores después de 12 horas
+- REQ-4.2: Reenviar un mensaje a los alumnos de la materia después de 24 horas
+- REQ-4.3: Que el sistema solamente reenvie las dudas que no han sido contestadas, evitando mensajes de otra indole. 
+- REQ-4.4: Que el sistema reenvie el mensaje asignando un nombre anonimo como autor del mensaje. Este nombre anonimo tendrá como propositó evitar alguna molestia o inconveniente que el estudiante pueda tener, en caso de que su mensaje sea reenviado a otras personas que no sean el destinatario original.
+- REQ-5.1: Que el sistema permita agendar una cita con cualquier tipo de usuario(estudiantes, profesores, personal administrativo)
+- REQ-5.2: Que el sistema permita que se puedan realizar multiples citas, incluso cuando ya se tienen otras citas agendadas.
 
 
-## 7. FEATURES NOT TO BE TESTED
 
+## 7. FUNCIONALIDADES QUE NO SE DEBEN DE PROBAR
+- REQ-1.2: Que el número de conversaciones abiertas sólo esté limitado por la memoria del dispositivo.
+- REQ-2.3: Poder tener el número de chats que la memoria del dispositivo permita.
+- REQ-2.5: Poder crear un chat con un usuario con el cual se tenía un chat pero se había borrado.
+- REQ-3.5: Que el sistema permita cerrar la ventana de reporte, en el caso que no se requiera hacer el reporte y se haya seleccionado la opción por accidente. 
+- REQ-3.6: Que el sistema permita realizar un reporte sobre un mensaje de cualquier tipo. Es decir, que el sistema permita reportar videos, imagenes, archivos y mensajes de texto. 
 
 ## 8. ESTRATEGIA 
 Aunque sabemos que se debería de tener diferentes persoans para realizar las diferentes pruebas, por falta de personal, se harán las pruebas por diferentes miembros del equipo una vez que se termine cada módulo. 
@@ -75,7 +96,7 @@ Se deberá para en caso de que:
 Para atender los "issues" se está manejando una política de "min flow time," por lo que se optimizarán los recursos para trabajar con los "issues"
 de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requiera utilizarlos.
 
-## 11. TEST DELIVERABLES
+## 11. ENTREGABLES
 1) Plan de aceptación o rechazp
 2) Reporte de resultados de las pruebas unitarias.
 3) Reporte de los mock-ups
@@ -85,18 +106,28 @@ de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requi
 Se está considerando que las funcionalidades y requerimientos que tengan prioridad baja se lanzarán después del lanzamiento general. 
 Es decir, primero se terminará el software con las funcionalidades que han sido clasificadas con prioridad **alta** y **media** se realizarán primero y las funcionalidades de prioridad **baja** se dejarán pendientes. 
 
-## 13. ENVIRONMENTAL NEEDs
-!aquí van los requerimientos de hardware, lo está haciendo el chuy
+## 13. ENVIRONMENTAL NEEDS
+
 
 ## 14. STAFFING AND TRAINING NEEDS
 
-## 15. RESPONSIBILITIES
-|   | TI | PM | Dev Team | Test  Team | Client |
-|---|----|----|----------|------------|--------|
-|   |    |    |          |            |        |
-|   |    |    |          |            |        |
-|   |    |    |          |            |        |
-|   |    |    |          |            |        |
+
+## 15. RESPONSABILIDADES
+Cada miembro del equipo tiene diferentes responsabilidades, sin embargo, es importante que para aprobar o rechazar cualquier cosa se sigan las medidas adecuadas. 
+
+Se va a dividir al equipo de trabajo en pares y de esta forma se podrá tener mejor control. Las parejas son: Andrea de Anda Kuri/Miguel Ángel Cifuentes Jiménez y  Damian Pérez Landeros/Isaías Jesús García Moreno
+
+La estructura de la división de tareas es la siguiente: 
+|                                      | Pareja 1 | Pareja 2 |
+|--------------------------------------|----------|----------|
+| Probar la usabilidad                 |     x    |          |
+| Revisar que se pueda enviar mensajes |          |     x    |
+| Reportar mensajes                    |     x    |          |
+| Crear grupos                         |          |     x    |
+| Búsquedas                            |     x    |          |
+| Enviar un mensaje a muchas personas  |          |     x    |
+|                                      |          |          |
+
 
 ## 16. PLAN DE TRABAJO
 Para las pruebas de calidad se utilizará una metodología Scrum con sprints de duración predefinida a una semana. 
@@ -144,12 +175,10 @@ Representante del equipo - Isaías Jesús García Moreno
 ## 19. GLOSARIO
 | Palabra | Definición |
 |---------|------------|
-|         |            |
-|         |            |
-|         |            |
-|         |            |
-|         |            |
-|         |            |
-|         |            |
+|Administrativo|Personal que trabaja en el ITAM, puede ser en becar, caja, biblioteca, etc.|
+|    BLATT     |  Nombre del proyecto del equipo Softwerinos     |
+|    Softwerinos     |    Equipo de la materia de Ingenieria de Software del ITAM      |
+|      ITAM   |        Instituto Tecnológico Autónomo de México    |
+
 
 

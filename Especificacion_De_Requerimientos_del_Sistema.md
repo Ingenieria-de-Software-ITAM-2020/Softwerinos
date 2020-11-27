@@ -101,7 +101,7 @@ Los usuarios entran a la aplicación, donde tendrán todos sus chats abiertos y 
 - REQ-1.3: Que todos los mensajes enviados estén cifrados de extremo a extremo.
 - REQ-1.4: Que el sistema permita enviar el mismo mensaje a varios usuarios.
 - REQ-1.5: Que el número de mensajes recibidos esté limitado sólo por la memoria del dispositivo.
-## 4.2. Crear chats
+### 4.2. Crear chats
 #### 4.2.1. Descripción y prioridad 
 Poder crear un chat con algún miembro de la organización a quien se desee enviar un mensaje personal, tendrá prioridad alta con valor 1 ya que es parte de las funcionalidades básicas de la aplicación.  
 #### 4.2.2. Secuencias Estímulo/Respuesta
@@ -112,7 +112,7 @@ Habrá un botón de crear conversación donde puedas elegir a qué persona o per
 - REQ-2.3: Poder tener el número de chats que la memoria del dispositivo permita. 
 - REQ-2.4: Poder crear un chat con los tres distintos usuarios (estudiante, docente, personal administtrativo).
 - REQ-2.5: Poder crear un chat con un usuario con el cual se tenía un chat pero se había borrado.
-## 4.3. Reportar un mensaje 
+### 4.3. Reportar un mensaje 
 #### 4.3.1. Descripción y prioridad
 Poder reportar un mensaje que se considere que no cumple con el reglamento de convivencia establecido por el ITAM. Esta funcionalidad tiene prioridad 2 ya que, es una funcionalidad muy importante para conservar la buena convivencia dentro de la aplicación y evitar problemas sin embargo, no es una funcionalidad primordial para el funcionamiento básico del sistema.
 #### 4.3.2. Secuencias Estímulo/Respuesta
@@ -124,7 +124,7 @@ Habrá una boton para reportar un mensaje, el cuál al seleccionarlo desplegará
 - REQ-3.4: Que el sistema permita escribir sobre una caja de texto otra razón por la cual se realizó el reporte, en el caso de que la lista de razones más comúnes no sea suficiente. 
 - REQ-3.5: Que el sistema permita cerrar la ventana de reporte, en el caso que no se requiera hacer el reporte y se haya seleccionado la opción por accidente. 
 - REQ-3.6: Que el sistema permita realizar un reporte sobre un mensaje de cualquier tipo. Es decir, que el sistema permita reportar videos, imagenes, archivos y mensajes de texto. 
-## 4.4. Reenvio temporizado de mensajes de duda
+### 4.4. Reenvio temporizado de mensajes de duda
 #### 4.4.1. Descripción y prioridad 
 Para evitar que una duda se quede sin respuesta, el usuario podrá recibir respuesta de los demás profesores que imparten la materia y de los estudiantes que la están cursando. Esta funcionalidad tiene prioridad alta 2, ya que es de suma importancia que las dudas de los alumnos se resuelvan en un tiempo promedio de 24 horas. 
 #### 4.4.2. Secuencias Estímulo/Respuesta
@@ -136,7 +136,7 @@ El reenvio de los mensajes comenzara 12 horas después que el mensaje fue enviad
 - REQ-4.4: Que el sistema reenvie el mensaje asignando un nombre anonimo como autor del mensaje. Este nombre anonimo tendrá como propositó evitar alguna molestia o inconveniente que el estudiante pueda tener, en caso de que su mensaje sea reenviado a otras personas que no sean el destinatario original.
 - REQ-4.5: En el caso que un mensaje cumpla alguno de los dos plazos (12 y 24 horas) el sistema debe reconocer si ya se tiene un chat abierto con los profesores o con los demás estudiantes. Con esto se evita tener grupos repetidos en el caso de que más de una duda no sea respondida por el profesor antes de las 12 horas establecidas.
 - REQ-4.5: Que el sistema reenvie el número de mensajes que se hayan mandado y no tengan respuesta. Es decir, si se mando un mensaje de texto con un archivo, el sistema reenviará el mensaje de texto con el archivo. 
-## 4.5. Agendar citas
+### 4.5. Agendar citas
 #### 4.5.1. Descripción y prioridad 
 Dentro de la aplicación se puede tener la opción de agendar una cita. Dicha cita es para resolver dudas con el profesor, o realizar algún trámite con un personal administrativo.
 #### 4.5.2. Secuencias Estímulo/Respuesta
@@ -175,5 +175,6 @@ En términos de disponiblididad de los datos, las conversaciones serán almacena
 ## 5.5. Reglas del negocio
 La aplicación busca que todos puedan mensajear a cualquiera de los usuarios, la principal regla de negocio es que los mensajes se procesen deacuerdo a la hora en la que fueron enviados para darle sentido a las conversaciones, y que los requests de mensaje de usuarios bloqueados no sean enviadas a ningún destinatario. Una segunda regla de negocio es que cuando haya un mensaje de duda sin responder, después de 12 horas de haberse mandado se envíe a todos los profesores de asignatura para aumentar las probabilidades de respuesta, si llegaran a pasar 12 horas más sin respuesta, se enviará a todos los alumnos que hayan llevado o estén llevando la materia para aumentar aún más la probabilidad de respuesta. La bandeja de entrada de todos los perfiles tendrán los mensajes ordenados conforme vayan llegando y se enviarán alertas cuando se hayan dejado mensajes sin contestar por 18 horas. 
 Las reglas de contenido serán impuestas por el reglamento de comportamiento para alumnos y empleados del ITAM. 
+
 ## Apéndice A: Glosario
 ## Apéndice B: Análisis
