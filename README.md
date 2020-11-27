@@ -4,7 +4,7 @@
   <img width="600" src="./imagenes/logoSoftwerinos.png">
 </p>
 
-Prototipo: [Ir a Figma] (https://www.figma.com/file/3zyY11MtJwYvK602JeZtOs/BLATT?node-id=0%3A1)
+Prototipo: [Figma] (https://www.figma.com/file/3zyY11MtJwYvK602JeZtOs/BLATT?node-id=0%3A1)
 
 Equipo: **Los Softwerinos**   
 
