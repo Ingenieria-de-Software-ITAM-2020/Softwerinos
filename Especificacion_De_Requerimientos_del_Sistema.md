@@ -85,6 +85,10 @@ Para el correcto funcionamiento asumimos que:
 ### 3.1. Interfaces de usuario
 La aplicación está destinado para el uso de los estudiantes, docentes y personal administrativo del ITAM. De tal de modo que todo el diseño está basado en el ITAM. Sin embargo, con el fin de hacer más flexible y accesible para los usuarios, hemos introducido un modo para personas daltónicas. De modo que las pantallas a continuación presentadas tienen la versión para personas daltónicas y para las personas sin este problema. Por practicidad presentaremos la versión para no daltónicos, pero siempre recordando lo anterior.
 
+<p align="center">
+  <img width="600" src="https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_login.PNG">
+</p>
+
 ![Pantalla login](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_login.PNG)
 ![Pantalla login daltonicos](https://github.com/Ingenieria-de-Software-ITAM-2020/Softwerinos/blob/main/imagenes/pantalla_dalt.PNG)
 
