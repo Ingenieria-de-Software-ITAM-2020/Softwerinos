@@ -24,8 +24,11 @@ Aquí se encuentra una lista de los diferentes tipos de pruebas que se harán pa
 
 ## 5. RIESGO DE PROBLEMAS CON EL SOFTWARE 
 Se han identificado los siguientes riesgos:
-1. Seguridad
-2. Problemas con la interfaz
+1) Seguridad
+2) Problemas con la interfaz
+3) Problemas con los servidores
+4) Problemas con que el sistema pierda los mensajes.
+5) 
 
 ## 6. FUNCIONALIDADES A PROBAR
 - REQ-1.1: Por cada mensaje no leído de alguna conversación el sistema enviará una notificación al receptor del mensaje.
@@ -65,7 +68,7 @@ Los diferentes tipos de pruebas que se harán son:
 ## 9. CRITERIO PARA CONSIDERAR QUE UN ELEMENTO FUNCIONA
 Se considerará que el Software estará listo una vez que haya cumplido con un periodo de pruebas de 90 días sin tener fallas. (ver sección 16 para el plan general)
 
-## 10. SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
+## 10. CRITERIOS DE SUSPENSIÓN Y REQUISITOS DE REANUDACIÓN
 Se deberá para en caso de que:
 1) Los mensajes no se estén enviando (por parte del usuario 1) y llegando (al usuario 2) en el orden correcto.
 2) Los mensajes no estén llegando
@@ -79,15 +82,17 @@ de tal forma que se atenderán dependiendo de la prioridad y el tiempo que requi
 3) Reporte de los mock-ups
 4) Reporte de incidentes
 
-## 12. REMAINING TEST TASKS
+## 12. TAREAS DE PRUEBA RESTANTES
 Se está considerando que las funcionalidades y requerimientos que tengan prioridad baja se lanzarán después del lanzamiento general. 
 Es decir, primero se terminará el software con las funcionalidades que han sido clasificadas con prioridad **alta** y **media** se realizarán primero y las funcionalidades de prioridad **baja** se dejarán pendientes. 
 
-## 13. ENVIRONMENTAL NEEDS
+## 13. NECESIDADES AMBIENTALES
+- El usuario necesita ser miembro de la comunidad ITAM (y tener credenciales para probarlo).
+- El ususario necesita un cellular inteligente.
+- El usuario necesita una conexión a internet activa
 
-
-## 14. STAFFING AND TRAINING NEEDS
-
+## 14. NECESIDADES DE CAPACITACIÓN DE PERSONAL
+Para poder llevar a cabo las pruebas del sistema de manera satisfactoria será necesario que todos los miembros del equipo tomen [este](https://www.udemy.com/course/learn-software-testing-in-practical-become-a-qa-expert/?gclid=Cj0KCQiAwf39BRCCARIsALXWETy9EaCSNAOsIbz68dilbV2DW3Tuv61xJxgsvFDhzInlZ5T_2F3rf8AaAgrwEALw_wcB&matchtype=e&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_84635094848_._ad_478925925753_._kw_quality+assurance+course_._de_c_._dm__._pl__._ti_kwd-430707556227_._li_9047091_._pd__._) curso. Se espera que todo el equipo se encuentre en el mismo nivel a la hora de evaluar que puede ser aceptar o rechazar elementos. 
 
 ## 15. RESPONSABILIDADES
 Cada miembro del equipo tiene diferentes responsabilidades, sin embargo, es importante que para aprobar o rechazar cualquier cosa se sigan las medidas adecuadas. 
