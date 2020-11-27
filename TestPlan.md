@@ -1,28 +1,5 @@
 # Test Plan (IEEE format)
 
-## TEST PLAN OUTLINE (IEEE 829 FORMAT) 
-
-1) Test Plan Identifier 
-1) References 
-1) Introduction 
-1) Test Items 
-1) Software Risk Issues 
-1) Features to be Tested 
-1) Features not to be Tested 
-1) Approach  
-1) Item Pass/Fail Criteria 
-1) Suspension Criteria and Resumption Requirements 
-1) Test Deliverables 
-1) Remaining Test Tasks 
-1) Environmental Needs 
-1) Staffing and Training Needs 
-1) Responsibilities 
-1) Schedule 
-1) Planning Risks and Contingencies 
-1) Approvals 
-1) Glossary
-
-
 ## 1. IDENTIFICADOR DEL PLAN
 MasterTestPlan-X Æ A-12
 
