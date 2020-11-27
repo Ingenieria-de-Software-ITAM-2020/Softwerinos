@@ -175,5 +175,6 @@ En términos de disponiblididad de los datos, las conversaciones serán almacena
 ## 5.5. Reglas del negocio
 La aplicación busca que todos puedan mensajear a cualquiera de los usuarios, la principal regla de negocio es que los mensajes se procesen deacuerdo a la hora en la que fueron enviados para darle sentido a las conversaciones, y que los requests de mensaje de usuarios bloqueados no sean enviadas a ningún destinatario. Una segunda regla de negocio es que cuando haya un mensaje de duda sin responder, después de 12 horas de haberse mandado se envíe a todos los profesores de asignatura para aumentar las probabilidades de respuesta, si llegaran a pasar 12 horas más sin respuesta, se enviará a todos los alumnos que hayan llevado o estén llevando la materia para aumentar aún más la probabilidad de respuesta. La bandeja de entrada de todos los perfiles tendrán los mensajes ordenados conforme vayan llegando y se enviarán alertas cuando se hayan dejado mensajes sin contestar por 18 horas. 
 Las reglas de contenido serán impuestas por el reglamento de comportamiento para alumnos y empleados del ITAM. 
+
 ## Apéndice A: Glosario
 ## Apéndice B: Análisis
